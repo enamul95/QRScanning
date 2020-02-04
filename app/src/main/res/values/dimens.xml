@@ -1,0 +1,656 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+
+    <dimen name="actionBarSize">56dp</dimen>
+
+
+    <dimen name="viewpager_margin_overlap">-60dp</dimen>
+    <dimen name="viewpager_margin_overlap_payment">-30dp</dimen>
+
+    <!--genaral spacing-->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_xmedium">7dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="spacing_xxxlarge">55dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <dimen name="bill_title_right_margin">5dp</dimen>
+    <dimen name="bill_title_image_height">50dp</dimen>
+    <dimen name="bill_title_text_size">20sp</dimen>
+    <dimen name="bill_layout_margin_botton">20dp</dimen>
+
+    <!--start-->
+
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_7">25sp</dimen>
+    <dimen name="text_size_10">25sp</dimen>
+
+    <dimen name="text_size_title_small">18sp</dimen>
+    <dimen name="text_size_title_medium">18sp</dimen>
+    <dimen name="text_size_title_7">20sp</dimen>
+    <dimen name="text_size_title_10">20sp</dimen>
+
+    <dimen name="padding_small">3dp</dimen>
+    <dimen name="padding_medium">3dp</dimen>
+    <dimen name="padding_tab_7">5dp</dimen>
+    <dimen name="padding_tab_10">5dp</dimen>
+
+    <dimen name="button_hight_small">60dp</dimen>
+    <dimen name="button_hight_medium">60dp</dimen>
+    <dimen name="button_hight_7">80dp</dimen>
+    <dimen name="button_hight_10">80dp</dimen>
+
+
+
+    <dimen name="image_width_title_small">50dp</dimen>
+    <dimen name="image_width_title_medium">50dp</dimen>
+    <dimen name="image_width_title_7">80dp</dimen>
+    <dimen name="image_width_title_10">80dp</dimen>
+
+
+    <dimen name="image_height_title_small">50dp</dimen>
+    <dimen name="image_height_title_medium">50dp</dimen>
+    <dimen name="image_height_title_7">80dp</dimen>
+    <dimen name="image_height_title_10">80dp</dimen>
+
+
+
+    <!--<dimen name="bill_margin_start">5dp</dimen>-->
+    <dimen name="margin_start_small">5dp</dimen>
+    <dimen name="margin_start_medium">5dp</dimen>
+    <dimen name="margin_start_7">10dp</dimen>
+    <dimen name="margin_start_10">10dp</dimen>
+
+
+    <!-- <dimen name="bill_title_top_margin">10dp</dimen>-->
+    <dimen name="margin_top_title_small">5dp</dimen>
+    <dimen name="margin_top_title_medium">5dp</dimen>
+    <dimen name="margin_top_title_7">10dp</dimen>
+    <dimen name="margin_top_title_10">10dp</dimen>
+
+
+    <!--
+       <dimen name="bill_title_bottomt_margin">1dp</dimen>-->
+    <dimen name="margin_bottom_title_small">5dp</dimen>
+    <dimen name="margin_bottom_title_medium">5dp</dimen>
+    <dimen name="margin_bottom_title_7">5dp</dimen>
+    <dimen name="margin_bottom_title_10">5dp</dimen>
+
+    <!--
+
+   <dimen name="bill_text_size_lable">14sp</dimen>-->
+    <dimen name="text_size_lable_small">14sp</dimen>
+    <dimen name="text_size_lable_medium">14sp</dimen>
+    <dimen name="text_size_lable_7">20sp</dimen>
+    <dimen name="text_size_lable_10">20sp</dimen>
+
+    <!--
+     <dimen name="bill_spinner_height">50dp</dimen>-->
+    <dimen name="spinner_height_small">50dp</dimen>
+    <dimen name="spinner_height_medium">50dp</dimen>
+    <dimen name="spinner_height_7">70dp</dimen>
+    <dimen name="spinner_height_10">80dp</dimen>
+
+
+    <!--
+    <dimen name="bill_layout_gap">1dp</dimen>-->
+    <dimen name="laymout_margin_small">1dp</dimen>
+    <dimen name="laymout_margin_medium">1dp</dimen>
+    <dimen name="laymout_margin_7">1dp</dimen>
+    <dimen name="laymout_margin_10">1dp</dimen>
+
+    <!--
+
+    <dimen name="bill_label_padding">4dp</dimen>-->
+    <dimen name="padding_lable_small">4dp</dimen>
+    <dimen name="padding_lable_medium">4dp</dimen>
+    <dimen name="padding_lable_7">6dp</dimen>
+    <dimen name="padding_lable_10">6dp</dimen>
+
+    <!--
+
+
+     <dimen name="view_text_padding">3dp</dimen>-->
+    <dimen name="padding_textview_small">3dp</dimen>
+    <dimen name="padding_textview_medium">3dp</dimen>
+    <dimen name="padding_textview_7">5dp</dimen>
+    <dimen name="padding_textview_10">5dp</dimen>
+
+    <dimen name="height_button_small">50dp</dimen>
+    <dimen name="height_button_medium">50dp</dimen>
+    <dimen name="height_button_7">80dp</dimen>
+    <dimen name="height_button_10">80dp</dimen>
+
+
+
+    <dimen name="tt_layout_margin_left_small">5dp</dimen>
+    <dimen name="tt_layout_margin_left_medium">5dp</dimen>
+    <dimen name="tt_layout_margin_left_7">5dp</dimen>
+    <dimen name="tt_layout_margin_left_10">5dp</dimen>
+
+    <dimen name="tt_layout_margin_right_small">5dp</dimen>
+    <dimen name="tt_layout_margin_right_medium">5dp</dimen>
+    <dimen name="tt_layout_margin_right_7">5dp</dimen>
+    <dimen name="tt_layout_margin_right_10">5dp</dimen>
+
+    <dimen name="tt_label_margin_left_small">5dp</dimen>
+    <dimen name="tt_label_margin_left_medium">5dp</dimen>
+    <dimen name="tt_label_margin_left_7">5dp</dimen>
+    <dimen name="tt_label_margin_left_10">5dp</dimen>
+
+    <dimen name="tt_label_text_size_small">12sp</dimen>
+    <dimen name="tt_label_text_size_medium">12sp</dimen>
+    <dimen name="tt_label_text_size_7">14sp</dimen>
+    <dimen name="tt_label_text_size_10">18sp</dimen>
+
+    <dimen name="tt_input_height_small">50dp</dimen>
+    <dimen name="tt_input_height_medium">55dp</dimen>
+    <dimen name="tt_input_height_7">60dp</dimen>
+    <dimen name="tt_input_height_10">70dp</dimen>
+
+    <dimen name="ac_height_medium">50dp</dimen>
+    <dimen name="ac_height_7">50dp</dimen>
+    <dimen name="ac_height_10">50dp</dimen>
+
+
+
+    <dimen name="tt_edittext_height_small">50dp</dimen>
+    <dimen name="tt_edittext_height_medium">50dp</dimen>
+    <dimen name="tt_edittext_height_7">50dp</dimen>
+    <dimen name="tt_edittext_height_10">50dp</dimen>
+
+    <dimen name="tt_rg_margin_top_small">10dp</dimen>
+    <dimen name="tt_rg_margin_top_medium">10dp</dimen>
+    <dimen name="tt_rg_margin_top_7">10dp</dimen>
+    <dimen name="tt_rg_margin_top_10">10dp</dimen>
+
+    <dimen name="tt_rg_margin_bottom_small">10dp</dimen>
+    <dimen name="tt_rg_margin_bottom_medium">10dp</dimen>
+    <dimen name="tt_rg_margin_bottom_7">10dp</dimen>
+    <dimen name="tt_rg_margin_bottom_10">10dp</dimen>
+
+    <dimen name="tt_radio_button_height_small">45dp</dimen>
+    <dimen name="tt_radio_button_height_medium">45dp</dimen>
+    <dimen name="tt_radio_button_height_7">45dp</dimen>
+    <dimen name="tt_radio_button_height_10">45dp</dimen>
+
+    <dimen name="tt_radio_button_padding_small">4dp</dimen>
+    <dimen name="tt_radio_button_padding_medium">4dp</dimen>
+    <dimen name="tt_radio_button_padding_7">4dp</dimen>
+    <dimen name="tt_radio_button_padding_10">4dp</dimen>
+
+    <dimen name="tt_radio_button_margin_left_small">5dp</dimen>
+    <dimen name="tt_radio_button_margin_left_medium">5dp</dimen>
+    <dimen name="tt_radio_button_margin_left_7">5dp</dimen>
+    <dimen name="tt_radio_button_margin_left_10">5dp</dimen>
+
+    <dimen name="tt_radio_button_margin_right_small">5dp</dimen>
+    <dimen name="tt_radio_button_margin_right_medium">5dp</dimen>
+    <dimen name="tt_radio_button_margin_right_7">5dp</dimen>
+    <dimen name="tt_radio_button_margin_right_10">5dp</dimen>
+
+    <dimen name="tt_layout_padding_bottom_small">5dp</dimen>
+    <dimen name="tt_layout_padding_bottom_medium">5dp</dimen>
+    <dimen name="tt_layout_padding_bottom_7">5dp</dimen>
+    <dimen name="tt_layout_padding_bottom_10">5dp</dimen>
+
+    <dimen name="tt_iv_next_padding_small">10dp</dimen>
+    <dimen name="tt_iv_next_padding_medium">10dp</dimen>
+    <dimen name="tt_iv_next_padding_7">10dp</dimen>
+    <dimen name="tt_iv_next_padding_10">10dp</dimen>
+
+    <dimen name="tt_edittext_text_size_small">20sp</dimen>
+    <dimen name="tt_edittext_text_size_medium">20sp</dimen>
+    <dimen name="tt_edittext_text_size_7">20sp</dimen>
+    <dimen name="tt_edittext_text_size_10">20sp</dimen>
+
+    <dimen name="txt_rb_padding_small">4dp</dimen>
+    <dimen name="txt_rb_padding_medium">4dp</dimen>
+    <dimen name="txt_rb_padding_7">4dp</dimen>
+    <dimen name="txt_rb_padding_10">4dp</dimen>
+
+    <dimen name="tt_label_margin_top_small">1dp</dimen>
+    <dimen name="tt_label_margin_top_medium">1dp</dimen>
+    <dimen name="tt_label_margin_top_7">1dp</dimen>
+    <dimen name="tt_label_margin_top_10">1dp</dimen>
+
+    <dimen name="tt_label_margin_right_small">5dp</dimen>
+    <dimen name="tt_label_margin_right_medium">5dp</dimen>
+    <dimen name="tt_label_margin_right_7">5dp</dimen>
+    <dimen name="tt_label_margin_right_10">5dp</dimen>
+
+    <dimen name="tt_lable_padding_small">4dp</dimen>
+    <dimen name="tt_lable_padding_medium">4dp</dimen>
+    <dimen name="tt_lable_padding_7">4dp</dimen>
+    <dimen name="tt_lable_padding_10">4dp</dimen>
+
+   <!-- <dimen name="tt_text_size_value_small">14dp</dimen>
+    <dimen name="tt_text_size_value_medium">14dp</dimen>
+    <dimen name="tt_text_size_value_7">18dp</dimen>
+    <dimen name="tt_text_size_value_10">18dp</dimen>
+    -->
+
+    <dimen name="text_size_value_small">14dp</dimen>
+    <dimen name="text_size_value_medium">14dp</dimen>
+    <dimen name="text_size_value_7">18dp</dimen>
+    <dimen name="text_size_value_10">18dp</dimen>
+
+    <dimen name="tt_label_margin_botton_small">10dp</dimen>
+    <dimen name="tt_label_margin_botton_medium">10dp</dimen>
+    <dimen name="tt_label_margin_botton_7">10dp</dimen>
+    <dimen name="tt_label_margin_botton_10">10dp</dimen>
+
+    <dimen name="tt_layout_margin_top_small">1dp</dimen>
+    <dimen name="tt_layout_margin_top_medium">1dp</dimen>
+    <dimen name="tt_layout_margin_top_7">1dp</dimen>
+    <dimen name="tt_layout_margin_top_10">1dp</dimen>
+
+    <dimen name="tt_layout_margin_bottom_small">20dp</dimen>
+    <dimen name="tt_layout_margin_bottom_medium">20dp</dimen>
+    <dimen name="tt_layout_margin_bottom_7">20dp</dimen>
+    <dimen name="tt_layout_margin_bottom_10">20dp</dimen>
+
+    <dimen name="ns_margin_left_small">10dp</dimen>
+    <dimen name="ns_margin_left_medium">10dp</dimen>
+    <dimen name="ns_margin_left_7">10dp</dimen>
+    <dimen name="ns_margin_left_10">10dp</dimen>
+
+    <dimen name="ns_margin_top_small">10dp</dimen>
+    <dimen name="ns_margin_top_medium">10dp</dimen>
+    <dimen name="ns_margin_top_7">10dp</dimen>
+    <dimen name="ns_margin_top_10">10dp</dimen>
+
+    <dimen name="ns_margin_right_small">10dp</dimen>
+    <dimen name="ns_margin_right_medium">10dp</dimen>
+    <dimen name="ns_margin_right_7">10dp</dimen>
+    <dimen name="ns_margin_right_10">10dp</dimen>
+
+    <dimen name="ns_margin_bottom_small">1dp</dimen>
+    <dimen name="ns_margin_bottom_medium">1dp</dimen>
+    <dimen name="ns_margin_bottom_7">1dp</dimen>
+    <dimen name="ns_margin_bottom_10">1dp</dimen>
+
+    <dimen name="ns_padding_edittext_small">10dp</dimen>
+    <dimen name="ns_padding_edittext_medium">10dp</dimen>
+    <dimen name="ns_padding_edittext_7">10dp</dimen>
+    <dimen name="ns_padding_edittext_10">10dp</dimen>
+
+
+    <dimen name="ns_rv_margin_left_small">10dp</dimen>
+    <dimen name="ns_rv_margin_left_medium">10dp</dimen>
+    <dimen name="ns_rv_margin_left_7">10dp</dimen>
+    <dimen name="ns_rv_margin_left_10">10dp</dimen>
+
+    <dimen name="ns_rv_margin_right_small">10dp</dimen>
+    <dimen name="ns_rv_margin_right_medium">10dp</dimen>
+    <dimen name="ns_rv_margin_right_7">10dp</dimen>
+    <dimen name="ns_rv_margin_right_10">10dp</dimen>
+
+    <dimen name="ns_rv_margin_top_small">1dp</dimen>
+    <dimen name="ns_rv_margin_top_medium">1dp</dimen>
+    <dimen name="ns_rv_margin_top_7">1dp</dimen>
+    <dimen name="ns_rv_margin_top_10">1dp</dimen>
+
+    <dimen name="ns_rv_margin_bottom_small">10dp</dimen>
+    <dimen name="ns_rv_margin_bottom_medium">10dp</dimen>
+    <dimen name="ns_rv_margin_bottom_7">10dp</dimen>
+    <dimen name="ns_rv_margin_bottom_10">10dp</dimen>
+
+    <dimen name="ns_rv_padding_small">10dp</dimen>
+    <dimen name="ns_rv_padding_medium">15dp</dimen>
+    <dimen name="ns_rv_padding_7">20dp</dimen>
+    <dimen name="ns_rv_padding_10">22dp</dimen>
+
+    <dimen name="tt_radio_button_height_amount_small">40dp</dimen>
+    <dimen name="tt_radio_button_height_amount_medium">40dp</dimen>
+    <dimen name="tt_radio_button_height_amount_7">50dp</dimen>
+    <dimen name="tt_radio_button_height_amount_10">50dp</dimen>
+
+    <dimen name="tt_rb_textsize_small">14sp</dimen>
+    <dimen name="tt_rb_textsize_medium">14sp</dimen>
+    <dimen name="tt_rb_textsize_7">16sp</dimen>
+    <dimen name="tt_rb_textsize_10">18sp</dimen>
+
+    <dimen name="tt_rb_text_size_mobiletype_small">14sp</dimen>
+    <dimen name="tt_rb_text_size_mobiletype_medium">16sp</dimen>
+    <dimen name="tt_rb_text_size_mobiletype_7">18sp</dimen>
+    <dimen name="tt_rb_text_size_mobiletype_10">20sp</dimen>
+
+
+
+    <dimen name="margin_title_left_small">5dp</dimen>
+    <dimen name="margin_title_left_medium">5dp</dimen>
+    <dimen name="margin_title_left_7">5dp</dimen>
+    <dimen name="margin_title_left_10">5dp</dimen>
+
+    <dimen name="margin_title_top_small">5dp</dimen>
+    <dimen name="margin_title_top_medium">5dp</dimen>
+    <dimen name="margin_title_top_7">5dp</dimen>
+    <dimen name="margin_title_top_10">5dp</dimen>
+
+    <dimen name="margin_title_right_small">5dp</dimen>
+    <dimen name="margin_title_right_medium">5dp</dimen>
+    <dimen name="margin_title_right_7">5dp</dimen>
+    <dimen name="margin_title_right_10">5dp</dimen>
+
+    <dimen name="margin_title_bottom">1dp</dimen>
+    <dimen name="margin_title_medium">1dp</dimen>
+    <dimen name="margin_title_7">1dp</dimen>
+    <dimen name="margin_title_10">1dp</dimen>
+
+    <dimen name="txt_title_size_small">18sp</dimen>
+    <dimen name="txt_title_size_medium">18sp</dimen>
+    <dimen name="txt_title_size_7">20sp</dimen>
+    <dimen name="txt_title_size_10">20sp</dimen>
+
+
+    <dimen name="txt_title_margin">2dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="row_padding">10dp</dimen>
+
+    <dimen name="thumbnail">40dp</dimen>
+
+    <dimen name="contact_number">12dp</dimen>
+    <dimen name="contact_name">15dp</dimen>
+
+
+    <dimen name="ns_edittext_height_small">50dp</dimen>
+    <dimen name="ns_edittext_height_medium">55dp</dimen>
+    <dimen name="ns_edittext_height_7">60dp</dimen>
+    <dimen name="ns_edittext_height_10">70dp</dimen>
+
+    <dimen name="padding_right_small">50dp</dimen>
+    <dimen name="padding_right_medium">50dp</dimen>
+    <dimen name="padding_right_7">50dp</dimen>
+    <dimen name="padding_right_10">50dp</dimen>
+
+
+    <dimen name="image_view_next_height_small">30dp</dimen>
+    <dimen name="image_view_next_height_medium">30dp</dimen>
+    <dimen name="image_view_next_height_7">30dp</dimen>
+    <dimen name="image_view_next_height_10">30dp</dimen>
+
+
+    <dimen name="edittext_text_size_small">16sp</dimen>
+    <dimen name="edittext_text_size_medium">16sp</dimen>
+    <dimen name="edittext_text_size_7">18sp</dimen>
+    <dimen name="edittext_text_size_10">20sp</dimen>
+
+    <dimen name="image_view_next_width_small">30dp</dimen>
+    <dimen name="image_view_next_width_medium">40dp</dimen>
+    <dimen name="image_view_next_width_7">45dp</dimen>
+    <dimen name="image_view_next_width_10">50dp</dimen>
+
+    <dimen name="image_view_margin_small">15dp</dimen>
+    <dimen name="image_view_margin_medium">17dp</dimen>
+    <dimen name="image_view_margin_7">20dp</dimen>
+    <dimen name="image_view_margin_10">20dp</dimen>
+
+
+    <dimen name="right_arrow_small">30dp</dimen>
+    <dimen name="right_arrow_medium">30dp</dimen>
+    <dimen name="right_arrow_7">40dp</dimen>
+    <dimen name="right_arrow_10">50dp</dimen>
+
+
+    <dimen name="recent_text_size_small">14sp</dimen>
+    <dimen name="recent_text_size_medium">14sp</dimen>
+    <dimen name="recent_text_size_7">16sp</dimen>
+    <dimen name="recent_text_size_10">18sp</dimen>
+
+
+
+    <dimen name="s_main_title_height_small">50dp</dimen>
+    <dimen name="s_main_title_height_medium">50dp</dimen>
+    <dimen name="s_main_title_height_7">55dp</dimen>
+    <dimen name="s_main_title_height_10">60dp</dimen>
+
+    <dimen name="s_margin_right_small">7dp</dimen>
+    <dimen name="s_margin_right_medium">7dp</dimen>
+    <dimen name="s_margin_right_7">8dp</dimen>
+    <dimen name="s_margin_right_10">10dp</dimen>
+
+    <dimen name="s_margin_left_small">7dp</dimen>
+    <dimen name="s_margin_left_medium">7dp</dimen>
+    <dimen name="s_margin_left_7">8dp</dimen>
+    <dimen name="s_margin_left_10">10dp</dimen>
+
+    <dimen name="s_margin_top_small">2dp</dimen>
+    <dimen name="s_margin_top_medium">2dp</dimen>
+    <dimen name="s_margin_top_7">3dp</dimen>
+    <dimen name="s_margin_top_10">5dp</dimen>
+
+    <dimen name="s_margin_bottom_small">2dp</dimen>
+    <dimen name="s_margin_bottom_medium">2dp</dimen>
+    <dimen name="s_margin_bottom_7">3dp</dimen>
+    <dimen name="s_margin_bottom_10">5dp</dimen>
+
+    <dimen name="s_main_title_margin_small">2dp</dimen>
+    <dimen name="s_main_title_margin_medium">2dp</dimen>
+    <dimen name="s_main_title_margin_7">3dp</dimen>
+    <dimen name="s_main_title_margin_10">5dp</dimen>
+
+    <dimen name="s_main_title_text_size_small">18sp</dimen>
+    <dimen name="s_main_title_text_size_medium">18sp</dimen>
+    <dimen name="s_main_title_text_size_7">20sp</dimen>
+    <dimen name="s_main_title_text_size_10">25sp</dimen>
+
+    <dimen name="s_main_layout_margin_small">2dp</dimen>
+    <dimen name="s_main_layout_margin_medium">2dp</dimen>
+    <dimen name="s_main_layout_margin_7">3dp</dimen>
+    <dimen name="s_main_layout_margin_10">5dp</dimen>
+
+    <dimen name="s_main_layout_padding_small">5dp</dimen>
+    <dimen name="s_main_layout_padding_medium">5dp</dimen>
+    <dimen name="s_main_layout_padding_7">8dp</dimen>
+    <dimen name="s_main_layout_padding_10">10dp</dimen>
+
+    <dimen name="s_lable_margin_left_small">5dp</dimen>
+    <dimen name="s_lable_margin_left_medium">5dp</dimen>
+    <dimen name="s_lable_margin_left_7">5dp</dimen>
+    <dimen name="s_lable_margin_left_10">5dp</dimen>
+
+    <dimen name="s_lable_text_size_small">12sp</dimen>
+    <dimen name="s_lable_text_size_medium">12sp</dimen>
+    <dimen name="s_lable_text_size_7">13sp</dimen>
+    <dimen name="s_lable_text_size_10">15sp</dimen>
+
+    <dimen name="s_lable_margin_top_small">5dp</dimen>
+    <dimen name="s_lable_margin_top_medium">5dp</dimen>
+    <dimen name="s_lable_margin_top_7">8dp</dimen>
+    <dimen name="s_lable_margin_top_10">10dp</dimen>
+
+    <dimen name="s_spinner_height_small">60dp</dimen>
+    <dimen name="s_spinner_height_medium">60dp</dimen>
+    <dimen name="s_spinner_height_7">55dp</dimen>
+    <dimen name="s_spinner_height_10">70dp</dimen>
+
+    <dimen name="s_lable_margin_right_small">5dp</dimen>
+    <dimen name="s_lable_margin_right_medium">5dp</dimen>
+    <dimen name="s_lable_margin_right_7">8dp</dimen>
+    <dimen name="s_lable_margin_right_10">10dp</dimen>
+
+    <dimen name="s_edittext_margin_top_small">5dp</dimen>
+    <dimen name="s_edittext_margin_top_medium">5dp</dimen>
+    <dimen name="s_edittext_margin_top_7">8dp</dimen>
+    <dimen name="s_edittext_margin_top_10">10dp</dimen>
+
+    <dimen name="s_edittext_margin_bottom">5dp</dimen>
+    <dimen name="s_edittext_margin_medium">5dp</dimen>
+    <dimen name="s_edittext_margin_7">8dp</dimen>
+    <dimen name="s_edittext_margin_10">10dp</dimen>
+
+    <dimen name="s_value_text_size_small">14sp</dimen>
+    <dimen name="s_value_text_size_medium">14sp</dimen>
+    <dimen name="s_value_text_size_7">18sp</dimen>
+    <dimen name="s_value_text_size_10">20sp</dimen>
+
+    <dimen name="s_padding_next_button_small">10dp</dimen>
+    <dimen name="s_padding_next_button_medium">10dp</dimen>
+    <dimen name="s_padding_next_button_7">12dp</dimen>
+    <dimen name="s_padding_next_button_10">15dp</dimen>
+
+    <dimen name="s_value_padding_top_small">3dp</dimen>
+    <dimen name="s_value_padding_top_medium">3dp</dimen>
+    <dimen name="s_value_padding_top_7">4dp</dimen>
+    <dimen name="s_value_padding_top_10">5dp</dimen>
+
+    <dimen name="s_value_padding_bottom_small">3dp</dimen>
+    <dimen name="s_value_padding_bottom_medium">3dp</dimen>
+    <dimen name="s_value_padding_bottom_7">4dp</dimen>
+    <dimen name="s_value_padding_bottom_10">5dp</dimen>
+
+    <dimen name="s_view_margin_top_small">5dp</dimen>
+    <dimen name="s_view_margin_top_medium">5dp</dimen>
+    <dimen name="s_view_margin_top_7">10dp</dimen>
+    <dimen name="s_view_margin_top_10">10dp</dimen>
+
+    <dimen name="s_view_width_small">2dp</dimen>
+    <dimen name="s_view_width_medium">2dp</dimen>
+    <dimen name="s_view_width_7">3dp</dimen>
+    <dimen name="s_view_width_10">5dp</dimen>
+
+    <dimen name="s_view_height_small">40dp</dimen>
+    <dimen name="s_view_height_medium">40dp</dimen>
+    <dimen name="s_view_height_7">45dp</dimen>
+    <dimen name="s_view_height_10">50dp</dimen>
+
+    <dimen name="s_view2_height_small">2dp</dimen>
+    <dimen name="s_view2_height_medium">2dp</dimen>
+    <dimen name="s_view2_height_7">3dp</dimen>
+    <dimen name="s_view2_height_10">5dp</dimen>
+
+    <dimen name="s_view2_margin_small">7dp</dimen>
+    <dimen name="s_view2_margin_medium">7dp</dimen>
+    <dimen name="s_view2_margin_7">8dp</dimen>
+    <dimen name="s_view2_margin_10">10dp</dimen>
+
+    <dimen name="s_edit_button_width_small">20dp</dimen>
+    <dimen name="s_edit_button_width_medium">20dp</dimen>
+    <dimen name="s_edit_button_width_7">22dp</dimen>
+    <dimen name="s_edit_button_width_10">25dp</dimen>
+
+    <dimen name="s_edit_button_height_small">20dp</dimen>
+    <dimen name="s_edit_button_height_medium">20dp</dimen>
+    <dimen name="s_edit_button_height_7">22dp</dimen>
+    <dimen name="s_edit_button_height_10">25dp</dimen>
+
+    <dimen name="s_editText_margin_top_small">1dp</dimen>
+    <dimen name="s_editText_margin_top_medium">1dp</dimen>
+    <dimen name="s_editText_margin_top_7">3dp</dimen>
+    <dimen name="s_editText_margin_top_10">5dp</dimen>
+
+    <dimen name="s_next_button_gap_small">10dp</dimen>
+    <dimen name="s_next_button_gap_medium">10dp</dimen>
+    <dimen name="s_next_button_gap_7">12dp</dimen>
+    <dimen name="s_next_button_gap_10">15dp</dimen>
+
+    <dimen name="s_next_button_height_small">55dp</dimen>
+    <dimen name="s_next_button_height_medium">55dp</dimen>
+    <dimen name="s_next_button_height_7">58dp</dimen>
+    <dimen name="s_next_button_height_10">60dp</dimen>
+
+    <dimen name="s_next_button_text_size_small">20sp</dimen>
+    <dimen name="s_next_button_text_size_medium">20sp</dimen>
+    <dimen name="s_next_button_text_size_7">22sp</dimen>
+    <dimen name="s_next_button_text_size_10">25sp</dimen>
+
+    <dimen name="s_bottom_height_small">50dp</dimen>
+    <dimen name="s_bottom_height_medium">50dp</dimen>
+    <dimen name="s_bottom_height_7">55dp</dimen>
+    <dimen name="s_bottom_height_10">60dp</dimen>
+
+
+    <dimen name="s_margin_edittext_around_small">10dp</dimen>
+    <dimen name="s_margin_edittext_around_medium">10dp</dimen>
+    <dimen name="s_margin_edittext_around_7">15dp</dimen>
+    <dimen name="s_margin_edittext_around_10">20dp</dimen>
+
+
+    <dimen name="r_title_margin_bottom_small">1dp</dimen>
+    <dimen name="r_title_margin_bottom_medium">1dp</dimen>
+    <dimen name="r_title_margin_bottom_7">2dp</dimen>
+    <dimen name="r_title_margin_bottom_10">2dp</dimen>
+
+    <dimen name="r_title_margin_top_small">10dp</dimen>
+    <dimen name="r_title_margin_top_medium">10dp</dimen>
+    <dimen name="r_title_margin_top_7">15dp</dimen>
+    <dimen name="r_title_margin_top_10">15dp</dimen>
+
+    <dimen name="r_title_margin_left_small">5dp</dimen>
+    <dimen name="r_title_margin_left_medium">5dp</dimen>
+    <dimen name="r_title_margin_left_7">8dp</dimen>
+    <dimen name="r_title_margin_left_10">10dp</dimen>
+
+    <dimen name="r_edittext_margin_small">10dp</dimen>
+    <dimen name="r_edittext_margin_medium">10dp</dimen>
+    <dimen name="r_edittext_margin_7">12dp</dimen>
+    <dimen name="r_edittext_margin_10">15dp</dimen>
+
+    <dimen name="r_margin_bottom_small">1dp</dimen>
+    <dimen name="r_margin_bottom_medium">1dp</dimen>
+    <dimen name="r_margin_bottom_7">2dp</dimen>
+    <dimen name="r_margin_bottom_10">2dp</dimen>
+
+    <dimen name="r_text_padding_small">5dp</dimen>
+    <dimen name="r_text_padding_medium">5dp</dimen>
+    <dimen name="r_text_padding_7">8dp</dimen>
+    <dimen name="r_text_padding_10">10dp</dimen>
+
+    <dimen name="r_margin_submit_buton_small">5dp</dimen>
+    <dimen name="r_margin_submit_buton_medium">5dp</dimen>
+    <dimen name="r_margin_submit_buton_7">8dp</dimen>
+    <dimen name="r_margin_submit_buton_10">10dp</dimen>
+
+    <dimen name="r_layout_padding_small">15dp</dimen>
+    <dimen name="r_layout_padding_medium">15dp</dimen>
+    <dimen name="r_layout_padding_7">18dp</dimen>
+    <dimen name="r_layout_padding_10">20dp</dimen>
+
+    <dimen name="r_textview_padding_small">5dp</dimen>
+    <dimen name="r_textview_padding_medium">5dp</dimen>
+    <dimen name="r_textview_padding_7">8dp</dimen>
+    <dimen name="r_textview_padding_10">10dp</dimen>
+
+    <dimen name="r_view_height_small">2dp</dimen>
+    <dimen name="r_view_height_medium">2dp</dimen>
+    <dimen name="r_view_height_7">3dp</dimen>
+    <dimen name="r_view_height_10">5dp</dimen>
+
+
+    <dimen name="r_edittext_padding_small">5dp</dimen>
+    <dimen name="r_edittext_padding_medium">5dp</dimen>
+    <dimen name="r_edittext_padding_7">8dp</dimen>
+    <dimen name="r_edittext_padding_10">10dp</dimen>
+
+    <dimen name="r_terms_size_small">18sp</dimen>
+    <dimen name="r_terms_size_medium">18sp</dimen>
+    <dimen name="r_terms_size_7">20sp</dimen>
+    <dimen name="r_terms_size_10">25sp</dimen>
+
+
+
+    <dimen name="edittext_height_small">50dp</dimen>
+    <dimen name="edittext_height_medium">55dp</dimen>
+    <dimen name="edittext_height_7">60dp</dimen>
+    <dimen name="edittext_height_10">70dp</dimen>
+
+</resources>
