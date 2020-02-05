@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/colorPrimary"
     android:orientation="vertical">
 
     <LinearLayout
@@ -12,15 +12,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="@dimen/r_title_margin_bottom_small"
+        android:background="@color/colorPrimary"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="@dimen/r_title_margin_left_small"
-            android:layout_marginTop="@dimen/r_title_margin_top_small"
             android:layout_marginRight="@dimen/r_title_margin_left_small"
-            android:background="@color/white"
+            android:background="@color/colorPrimary"
+
             android:orientation="vertical">
 
             <TextView
@@ -28,8 +29,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/s_main_title_margin_small"
+                android:background="@color/colorPrimary"
                 android:gravity="center_horizontal|center_vertical"
                 android:text="Hold your camera on Your QR code to pay the bill"
+                android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -43,7 +46,7 @@
             android:layout_marginTop="@dimen/r_title_margin_bottom_small"
             android:layout_marginRight="@dimen/r_title_margin_left_small"
             android:layout_marginBottom="@dimen/r_title_margin_bottom_small"
-            android:background="@color/r_layout_background"
+            android:background="@color/colorPrimary"
             android:orientation="vertical">
 
 
@@ -57,53 +60,92 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
-        <LinearLayout
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_marginTop="@dimen/r_title_margin_left_small"
+             android:background="@color/colorPrimary"
+             android:orientation="horizontal">
+             <LinearLayout
+                 android:layout_width="60dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="10dp">
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/r_title_margin_left_small"
+                 <Button
 
-            android:background="@color/white"
-            android:orientation="horizontal"
-            android:weightSum="4">
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_gravity="center_vertical"
+                     android:background="@drawable/card"
+                     android:textAllCaps="false"></Button>
+             </LinearLayout>
+             <LinearLayout
+                 android:focusableInTouchMode="true"
+                 android:layout_width="200dp"
+                 android:layout_height="50dp">
 
+                 <EditText
+                     android:textCursorDrawable="@null"
+                     android:textColorHint="@drawable/selector"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"
+                     android:background="@color/colorPrimary"
+                     android:gravity="center"
+                     android:hint="Enter Number"
+                     android:textColor="@color/white" >
 
-            <LinearLayout
-                android:layout_marginLeft="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                 </EditText>
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="right"
+                 android:layout_marginRight="10dp"
+                 android:gravity="right">
 
-                <Button
-
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/cloud"
-                    android:textAllCaps="false"></Button>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_weight="2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            </LinearLayout>
-            <LinearLayout
-                android:gravity="right"
+                 <Button
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_gravity="center_vertical"
+                     android:background="@drawable/crop"
+                     android:gravity="center"
+                     android:textAllCaps="false"></Button>
+             </LinearLayout>
+         </LinearLayout>
+         <LinearLayout
+             android:background="@color/white"
+             android:layout_gravity="center_horizontal"
+             android:gravity="center_horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <Button
                 android:layout_marginRight="10dp"
-                android:layout_gravity="right"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/visa"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
 
-                <Button
+            </Button><Button
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+                android:background="@drawable/mastercard"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
 
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/next"
-                    android:textAllCaps="false"
-                    ></Button>
-            </LinearLayout>
-        </LinearLayout>
+            </Button><Button
+             android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+                android:background="@drawable/club"
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+            </Button>
+         </LinearLayout>
+     </LinearLayout>
     </RelativeLayout>
 
 
@@ -114,20 +156,22 @@
         android:orientation="vertical">
 
         <LinearLayout
+
             android:id="@+id/ll3rd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="50dp"
-            android:background="@color/white"
+            android:background="@color/colorPrimary"
             android:orientation="vertical"
-            android:padding="@dimen/r_layout_padding_small">
+            android:paddingTop="@dimen/r_layout_padding_small"
+            android:paddingBottom="@dimen/r_layout_padding_small">
 
 
             <com.budiyev.android.codescanner.CodeScannerView
                 android:id="@+id/scanner_view"
                 android:layout_width="wrap_content"
-                android:layout_height="500dp"
+                android:layout_height="450dp"
                 app:autoFocusButtonColor="@android:color/white"
                 app:autoFocusButtonVisible="true"
                 app:flashButtonColor="@android:color/white"
