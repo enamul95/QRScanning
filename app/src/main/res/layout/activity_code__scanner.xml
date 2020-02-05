@@ -60,92 +60,103 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
-     <LinearLayout
-         android:orientation="vertical"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content">
-         <LinearLayout
-             android:layout_width="match_parent"
-             android:layout_height="60dp"
-             android:layout_marginTop="@dimen/r_title_margin_left_small"
-             android:background="@color/colorPrimary"
-             android:orientation="horizontal">
-             <LinearLayout
-                 android:layout_width="60dp"
-                 android:layout_height="match_parent"
-                 android:layout_marginLeft="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-                 <Button
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="@dimen/r_title_margin_left_small"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
 
-                     android:layout_width="35dp"
-                     android:layout_height="35dp"
-                     android:layout_gravity="center_vertical"
-                     android:background="@drawable/card"
-                     android:textAllCaps="false"></Button>
-             </LinearLayout>
-             <LinearLayout
-                 android:focusableInTouchMode="true"
-                 android:layout_width="200dp"
-                 android:layout_height="50dp">
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp">
 
-                 <EditText
-                     android:textCursorDrawable="@null"
-                     android:textColorHint="@drawable/selector"
-                     android:layout_width="match_parent"
-                     android:layout_height="50dp"
-                     android:background="@color/colorPrimary"
-                     android:gravity="center"
-                     android:hint="Enter Number"
-                     android:textColor="@color/white" >
+                    <Button
 
-                 </EditText>
-             </LinearLayout>
-             <LinearLayout
-                 android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:layout_gravity="right"
-                 android:layout_marginRight="10dp"
-                 android:gravity="right">
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/card"
+                        android:textAllCaps="false"/>
+                </LinearLayout>
 
-                 <Button
-                     android:layout_width="35dp"
-                     android:layout_height="35dp"
-                     android:layout_gravity="center_vertical"
-                     android:background="@drawable/crop"
-                     android:gravity="center"
-                     android:textAllCaps="false"></Button>
-             </LinearLayout>
-         </LinearLayout>
-         <LinearLayout
-             android:background="@color/white"
-             android:layout_gravity="center_horizontal"
-             android:gravity="center_horizontal"
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content">
-            <Button
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/visa"
-                android:layout_width="40dp"
-                android:layout_height="40dp">
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:focusableInTouchMode="true">
 
-            </Button><Button
-             android:layout_marginRight="10dp"
-             android:layout_marginLeft="10dp"
-                android:background="@drawable/mastercard"
-                android:layout_width="40dp"
-                android:layout_height="40dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:hint="Enter Card Number"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="@drawable/selector"
+                        android:textCursorDrawable="@null">
 
-            </Button><Button
-             android:layout_marginRight="10dp"
-             android:layout_marginLeft="10dp"
-                android:background="@drawable/club"
-                android:layout_width="40dp"
-                android:layout_height="40dp">
+                    </EditText>
+                </LinearLayout>
 
-            </Button>
-         </LinearLayout>
-     </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:gravity="right">
+
+                    <Button
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/next"
+                        android:gravity="center"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/visa">
+
+                </Button>
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/mastercard">
+
+                </Button>
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/club">
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
     </RelativeLayout>
 
 
