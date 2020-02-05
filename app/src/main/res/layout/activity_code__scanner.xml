@@ -54,7 +54,9 @@
 
     </LinearLayout>
 
-    <RelativeLayout
+
+
+    <LinearLayout
         android:id="@+id/ll5th"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -157,7 +159,7 @@
                 </Button>
             </LinearLayout>
         </LinearLayout>
-    </RelativeLayout>
+    </LinearLayout>
 
 
     <LinearLayout
