@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:orientation="vertical">
 
     <LinearLayout
@@ -132,7 +133,7 @@
                     android:layout_height="50dp"
                     android:background="@color/colorPrimary"
                     android:gravity="center"
-                    android:hint="Enter Card Number"
+                    android:hint="Card Number"
                     android:inputType="number"
                     android:textColor="@color/white"
                     android:textColorHint="@drawable/selector"
@@ -159,6 +160,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:background="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
