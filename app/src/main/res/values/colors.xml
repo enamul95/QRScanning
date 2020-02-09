@@ -152,7 +152,7 @@
         <color name="s_divider_color">#e6e6e6</color>
         <color name="cd_title_color">#ffffffff</color>
         <color name="r_layout_background">#ffffff</color>
-
+        <color name="amber_800">#FF8F00</color>
 
 
 </resources>

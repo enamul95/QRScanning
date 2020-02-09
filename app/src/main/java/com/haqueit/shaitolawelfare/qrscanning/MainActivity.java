@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button code_scanner;
     Button visa_payment;
+    Button cardDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         code_scanner = findViewById(R.id.code_scanner);
         visa_payment = findViewById(R.id.visa_payment);
+        cardDetails = findViewById(R.id.cardDetails);
         code_scanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +52,15 @@ public class MainActivity extends AppCompatActivity {
         visa_payment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this,CardListActivity.class);
+                startActivity(intent);
+            }
+        });
+        cardDetails.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,CardDetailsActivity.class);
+                startActivity(intent);
             }
         });
     }

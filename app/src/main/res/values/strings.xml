@@ -1,514 +1,508 @@
 <resources>
     <string name="app_name">QRScanning</string>
 
-        <string name="company_name">Bank Asia Limited</string>
+    <string name="company_name">Bank Asia Limited</string>
 
-        <string name="navigation_drawer_open">Open navigation drawer</string>
-        <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-        <string name="action_settings">Settings</string>
-        <string name="title_activity_login">Bank Asia SMART App</string>
-        <string name="title_activity_account_balance_statement">SMART Banking</string>
-        <string name="title_activity_fund_transfer_request">SMART Banking</string>
-        <string name="title_activity_branch_info">Bank Asia SMART App</string>
-        <string name="title_activity_atmlocation">Bank Asia SMART App</string>
-        <string name="title_activity_contact">SMART Banking</string>
-        <string name="title_activity_electricity_bil_payment">SMART Banking</string>
-        <string name="title_activity_services">Bank Asia SMART App</string>
-        <string name="title_activity_about">Bank Asia SMART App</string>
-        <string name="title_activity_terms_privacy">Bank Asia SMART App</string>
-        <string name="title_activity_notification">Bank Asia SMART App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Bank Asia SMART App</string>
+    <string name="title_activity_account_balance_statement">SMART Banking</string>
+    <string name="title_activity_fund_transfer_request">SMART Banking</string>
+    <string name="title_activity_branch_info">Bank Asia SMART App</string>
+    <string name="title_activity_atmlocation">Bank Asia SMART App</string>
+    <string name="title_activity_contact">SMART Banking</string>
+    <string name="title_activity_electricity_bil_payment">SMART Banking</string>
+    <string name="title_activity_services">Bank Asia SMART App</string>
+    <string name="title_activity_about">Bank Asia SMART App</string>
+    <string name="title_activity_terms_privacy">Bank Asia SMART App</string>
+    <string name="title_activity_notification">Bank Asia SMART App</string>
 
-        <string name="title_unread_smg">Unread SMS</string>
-        <string name="sms_read">No Unread SMS Found From Your Device.</string>
+    <string name="title_unread_smg">Unread SMS</string>
+    <string name="sms_read">No Unread SMS Found From Your Device.</string>
 
 
-        <string name="title_activity_destination_bank">Please Search  Bank</string>
-        <string name="title_activity_account_serch">Please Select Account</string>
-        <!-- Field Label -->
-        <!-- Main Activity -->
+    <string name="title_activity_destination_bank">Please Search  Bank</string>
+    <string name="title_activity_account_serch">Please Select Account</string>
+    <!-- Field Label -->
+    <!-- Main Activity -->
 
-        <string name="side_home">Home</string>
-        <string name="side_login">Login</string>
-        <string name="side_forget_password">Forget Password</string>
-        <string name="login_title">Welcome to Bank Asia</string>
-        <string name="login_sub_title">Sign in to continue</string>
-        <string name="is_remember_user_id">Remember User ID.</string>
-        <string name="side_registration">Registration</string>
-        <string name="side_registration_payoneer">Payoneer Registration</string>
-        <string name="side_notification">Notification</string>
-        <string name="side_branch_loaction">Branch Location</string>
-        <string name="side_atm_loaction">ATM Location</string>
-        <string name="side_services">Service</string>
-        <string name="side_about">About</string>
-        <string name="side_terms_privacy">
+    <string name="side_home">Home</string>
+    <string name="side_login">Login</string>
+    <string name="side_forget_password">Forget Password</string>
+    <string name="login_title">Welcome to Bank Asia</string>
+    <string name="login_sub_title">Sign in to continue</string>
+    <string name="is_remember_user_id">Remember User ID.</string>
+    <string name="side_registration">Registration</string>
+    <string name="side_registration_payoneer">Payoneer Registration</string>
+    <string name="side_notification">Notification</string>
+    <string name="side_branch_loaction">Branch Location</string>
+    <string name="side_atm_loaction">ATM Location</string>
+    <string name="side_services">Service</string>
+    <string name="side_about">About</string>
+    <string name="side_terms_privacy">
           <![CDATA[	Terms & Privacy]]>
         </string>
-        <string name="side_language_setting">Language Settings</string>
-        <string name="side_setting">Settings</string>
-        <string name="language_vesion">English</string>
-        <string name="side_logout">Log Out</string>
-        <string name="side_password_change">Password Change</string>
-        <string name="side_messag">Message</string>
+    <string name="side_language_setting">Language Settings</string>
+    <string name="side_setting">Settings</string>
+    <string name="language_vesion">English</string>
+    <string name="side_logout">Log Out</string>
+    <string name="side_password_change">Password Change</string>
+    <string name="side_messag">Message</string>
 
-        <!-- Login Label -->
+    <!-- Login Label -->
 
-        <string name="lb_welecome_message">Welcome To Bank Asia</string>
-        <string name="lb_user_id">User ID</string>
-        <string name="lb_password">Password</string>
-        <string name="btn_change_password">Change Password</string>
-        <string name="terms">Privacy &amp; Terms</string>
-        <string name="btn_services">Services</string>
-        <string name="btn_about">About</string>
-        <string name="lb_era_info">Powered By ERA InfoTech Ltd</string>
-        <string name="btn_login_text">Login</string>
-        <string name="btn_submit">Submit</string>
-        <string name="btn_Nex">Next</string>
-        <string name="btn_clear">Clear</string>
-        <string name="btn_search">Search</string>
+    <string name="lb_welecome_message">Welcome To Bank Asia</string>
+    <string name="lb_user_id">User ID</string>
+    <string name="lb_password">Password</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="terms">Privacy &amp; Terms</string>
+    <string name="btn_services">Services</string>
+    <string name="btn_about">About</string>
+    <string name="lb_era_info">Powered By ERA InfoTech Ltd</string>
+    <string name="btn_login_text">Login</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_Nex">Next</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_search">Search</string>
 
-        <!-- Branch Location -->
-        <string name="btnBack">Back</string>
+    <!-- Branch Location -->
+    <string name="btnBack">Back</string>
 
-        <!-- Account Balance -->
-        <string name="lb_account_balance_titlet"> Account Balance </string>
-        <string name="lb_account_no1">Account No.</string>
-        <string name="lb_account_balalabce1">Balance</string>
-        <string name="lb_account_cur1">Currency</string>
-        <string name="lb_account_type1">A/c Type</string>
-        <string name="lb_account_title1">A/c Title</string>
-
-
-        <!-- Account Statement -->
-        <string name="lb_account_statement_titlet">  Account Statement  </string>
-        <string name="lb_from_date">From Date</string>
-        <string name="lb_to_date">To Date</string>
-
-        <!-- Fund Transfer -->
-        <string name="lb_fund_transfer_title"> Fund Transfer  </string>
-        <string name="lb_source_account">Source A/c </string>
-        <string name="lb_account_title">A/c Title  </string>
-        <string name="lb_balance">Balance</string>
-        <string name="lb_currency">Currency</string>
-        <string name="lb_amount">Amount </string>
-        <string name="lb_destrination">Destination A/c</string>
-        <string name="lb_remarks">Remarks </string>
-        <string name="lb_pin_code">Password</string>
-        <string name="lb_one_time_password_otp">OTP</string>
-
-        <!-- Fund Transfer Request -->
-        <string name="lb_fund_transfer_request_title"> Standing Instruction  </string>
-        <string name="lb_effective_date">Effective Date  </string>
-
-        <!-- Top Up -->
-        <string name="lb_top_titile">  Talk Time Recharge   </string>
-        <string name="lb_operator"> Operator</string>
-        <string name="lb_mobile_type">Mobile Type  </string>
-        <string name="lb_mobile_no">Mobile No </string>
-
-        <!-- Stop Cheque Leaf -->
-        <string name="lb_stop_leaf_title">Stop Cheque Leaf</string>
-        <string name="lb_stop_cheque_account_num">Account No.</string>
-        <string name="lb_leaves">Leaves</string>
-        <string name="lb_reason">Reason</string>
-
-        <!-- Cheque Status Inquiry -->
-        <string name="lb_cheque_status_title">Cheque Status Enquiry</string>
-        <string name="lb_cheque_status_leaf_type">Leaf Type</string>
-        <string name="btn_submit_cheque_status">Search</string>
-
-        <!-- Registration layout -->
-
-        <string name="lb_registraion_title">Registration Here</string>
-
-        <string name="lb_full_name">Full Name</string>
-        <string name="lb_reg_user_id">User ID</string>
-        <string name="lb_reg_customer_id">Account No</string>
-        <string name="lb_email_id">Email ID</string>
-        <string name="btn_continue">I Agree</string>
+    <!-- Account Balance -->
+    <string name="lb_account_balance_titlet"> Account Balance </string>
+    <string name="lb_account_no1">Account No.</string>
+    <string name="lb_account_balalabce1">Balance</string>
+    <string name="lb_account_cur1">Currency</string>
+    <string name="lb_account_type1">A/c Type</string>
+    <string name="lb_account_title1">A/c Title</string>
 
 
-        <string name="lb_branch_location_title">Branch Locations Info</string>
-        <string name="lb_atm_location_title">ATM Locations Info</string>
+    <!-- Account Statement -->
+    <string name="lb_account_statement_titlet">  Account Statement  </string>
+    <string name="lb_from_date">From Date</string>
+    <string name="lb_to_date">To Date</string>
 
-        <!-- Wasa Bill Pay -->
-        <string name="lb_wasa_bill_titile">Wasa Bill Payment</string>
-        <string name="lb_wasa_bill_no">Bill No</string>
-        <string name="lb_wasa_customer_ac">Customer A/c</string>
-        <string name="lb_wasa_inspector_id">Inspector ID</string>
-        <string name="lb_wasa_water_bill">Water Bill</string>
-        <string name="lb_wasa_sewer_bill">Sewer Bill</string>
-        <string name="lb_wasa_vat_amount">VAT Amount</string>
-        <string name="lb_wasa_Ser_Charge">Ser-Charge</string>
-        <string name="lb_wasa_fixed_charge">Fixed Charge</string>
-        <string name="lb_wasa_total_bill">Total Bill</string>
+    <!-- Fund Transfer -->
+    <string name="lb_fund_transfer_title"> Fund Transfer  </string>
+    <string name="lb_source_account">Source A/c </string>
+    <string name="lb_account_title">A/c Title  </string>
+    <string name="lb_balance">Balance</string>
+    <string name="lb_currency">Currency</string>
+    <string name="lb_amount">Amount </string>
+    <string name="lb_destrination">Destination A/c</string>
+    <string name="lb_remarks">Remarks </string>
+    <string name="lb_pin_code">Password</string>
+    <string name="lb_one_time_password_otp">OTP</string>
 
-        <!-- Electricity Bill Payment -->
-        <string name="lb_electricity_bill_titile"> DESCO Bill Payment</string>
-        <string name="lb_electricity_bill_amount">Amount + VAT</string>
-        <string name="lb_electricity_bill_total_amount">Total Amount</string>
-        <string name="lb_electricity_bill_customer_name">Customer Name</string>
-        <string name="lb_electricity_bill_meter_no">Meter No.</string>
-        <string name="lb_electricity_bill_month_bill">Month Bill</string>
-        <string name="lb_electricity_bill_due_date_2">Due Date</string>
+    <!-- Fund Transfer Request -->
+    <string name="lb_fund_transfer_request_title"> Standing Instruction  </string>
+    <string name="lb_effective_date">Effective Date  </string>
 
-        <!-- Reset Password -->
-        <string name="lb_password_expired_titile">Password Expired</string>
-        <string name="lb_reset_new_password_titile">Change Password</string>
-        <string name="lb_reset_new_password_old_password">Old Password</string>
-        <string name="lb_reset_new_password_new_Password">New Password</string>
-        <string name="lb_reset_new_password_confirm_password">Confirm Password</string>
-        <string name="lb_expire_day">Expired Days</string>
+    <!-- Top Up -->
+    <string name="lb_top_titile">  Talk Time Recharge   </string>
+    <string name="lb_operator"> Operator</string>
+    <string name="lb_mobile_type">Mobile Type  </string>
+    <string name="lb_mobile_no">Mobile No </string>
 
-        <!-- EFT -->
-        <string name="lb_eft_transaction_legend_title">Transaction Details</string>
-        <string name="lb_eft_destination_bank_title">Destination Bank Details</string>
-        <string name="lb_eft_destination_branch_title">Destination Branch Details</string>
-        <string name="lb_eft_source_ac_title">Source Account Details</string>
-        <string name="lb_Destrination_Bank_code">Bank Code </string>
-        <string name="lb_Destrination_Bank_name">Bank Name </string>
-        <string name="lb_Destrination_Branch_code">Branch Code</string>
-        <string name="lb_Destrination_Branch_Name">Branch Name</string>
-        <string name="lb_eft_titile">Electronic Fund Transfer</string>
-        <string name="lb_eft_bank_serach_title">Bank Search</string>
-        <string name="lb_eft_bank_bank_search_title">Please  Search Bank</string>
-        <string name="lb_bank_code">Bank Code</string>
-        <string name="lb_bank_name">Bank Name.</string>
-        <string name="lb_branch_code">Branch Code</string>
-        <string name="lb_branch_name">Branch Name.</string>
-        <string name="lb_eft_branch_serach_title">Branch Search</string>
-        <string name="lb_eft_destination_ac">A/c No.</string>
-        <string name="lb_eft_destination_ac_title">A/c Title</string>
-        <string name="btn_bank_search">Search</string>
-        <string name="btn_bank_search_All">Search ALL</string>
-        <string name="btn_bank_close">Close</string>
+    <!-- Stop Cheque Leaf -->
+    <string name="lb_stop_leaf_title">Stop Cheque Leaf</string>
+    <string name="lb_stop_cheque_account_num">Account No.</string>
+    <string name="lb_leaves">Leaves</string>
+    <string name="lb_reason">Reason</string>
 
-        <!-- Utility Bill -->
-        <string name="lb_utility_bill_title_home">Please Select Desired Option</string>
+    <!-- Cheque Status Inquiry -->
+    <string name="lb_cheque_status_title">Cheque Status Enquiry</string>
+    <string name="lb_cheque_status_leaf_type">Leaf Type</string>
+    <string name="btn_submit_cheque_status">Search</string>
 
-        <!-- DPDC Bill Collection -->
-        <string name="dpdc_bill_titile"> DPDC Bill Collection</string>
-        <string name="dpdc_bill_location_code">Location Code</string>
-        <string name="dpdc_bill_customer_id">Customer Code</string>
-        <string name="dpdc_bill_month">Month</string>
+    <!-- Registration layout -->
 
-        <string name="dpdc_bill_number">Bill No.</string>
-        <string name="dpdc_bill_amount">Principal Amount</string>
-        <string name="dpdc_bill_due_date">Due Date</string>
-        <string name="dpdc_bill_amount_after_due_date">Amount after Due Date</string>
-        <string name="dpdc_bill_status">Bill Status</string>
-        <string name="dpdc_bill_vat">Vat Amount</string>
-        <string name="dpdc_bill_remarks">Remarks</string>
-        <string name="dpdc_bill_total_amount">Total Amount</string>
+    <string name="lb_registraion_title">Registration Here</string>
+
+    <string name="lb_full_name">Full Name</string>
+    <string name="lb_reg_user_id">User ID</string>
+    <string name="lb_reg_customer_id">Account No</string>
+    <string name="lb_email_id">Email ID</string>
+    <string name="btn_continue">I Agree</string>
 
 
-        <!--Agent Account Balance-->
-        <string name="agent_account_balance_sl">SL No.</string>
-        <string name="agent_account_number">Account No.</string>
-        <string name="agent_account_title">Account Title</string>
-        <string name="agent_account_type">Account Type</string>
-        <string name="agent_account_balance">Balance</string>
+    <string name="lb_branch_location_title">Branch Locations Info</string>
+    <string name="lb_atm_location_title">ATM Locations Info</string>
 
-        <!--Agent Banking Account Statement-->
-        <string name="agent_statement_debit_account">Debit A/c </string>
-        <string name="agent_statement_sl">SL</string>
-        <string name="agent_statement_transaction_date">Transaction Date</string>
-        <string name="agent_statement_debit_amount">Debit Amount</string>
-        <string name="agent_statement_credit_amount">Credit Amount</string>
-        <string name="agent_statement_balance">Balance</string>
-        <string name="agent_statement_narration">Narration</string>
+    <!-- Wasa Bill Pay -->
+    <string name="lb_wasa_bill_titile">Wasa Bill Payment</string>
+    <string name="lb_wasa_bill_no">Bill No</string>
+    <string name="lb_wasa_customer_ac">Customer A/c</string>
+    <string name="lb_wasa_inspector_id">Inspector ID</string>
+    <string name="lb_wasa_water_bill">Water Bill</string>
+    <string name="lb_wasa_sewer_bill">Sewer Bill</string>
+    <string name="lb_wasa_vat_amount">VAT Amount</string>
+    <string name="lb_wasa_Ser_Charge">Ser-Charge</string>
+    <string name="lb_wasa_fixed_charge">Fixed Charge</string>
+    <string name="lb_wasa_total_bill">Total Bill</string>
 
-        <string name="speech_prompt">Say something..&#8230;</string>
-        <string name="speech_prompt_bn">কিছু বলুন..&#8230;</string>
-        <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
-        <string name="side_chat_bot">Chat With Us</string>
+    <!-- Electricity Bill Payment -->
+    <string name="lb_electricity_bill_titile"> DESCO Bill Payment</string>
+    <string name="lb_electricity_bill_amount">Amount + VAT</string>
+    <string name="lb_electricity_bill_total_amount">Total Amount</string>
+    <string name="lb_electricity_bill_customer_name">Customer Name</string>
+    <string name="lb_electricity_bill_meter_no">Meter No.</string>
+    <string name="lb_electricity_bill_month_bill">Month Bill</string>
+    <string name="lb_electricity_bill_due_date_2">Due Date</string>
+
+    <!-- Reset Password -->
+    <string name="lb_password_expired_titile">Password Expired</string>
+    <string name="lb_reset_new_password_titile">Change Password</string>
+    <string name="lb_reset_new_password_old_password">Old Password</string>
+    <string name="lb_reset_new_password_new_Password">New Password</string>
+    <string name="lb_reset_new_password_confirm_password">Confirm Password</string>
+    <string name="lb_expire_day">Expired Days</string>
+
+    <!-- EFT -->
+    <string name="lb_eft_transaction_legend_title">Transaction Details</string>
+    <string name="lb_eft_destination_bank_title">Destination Bank Details</string>
+    <string name="lb_eft_destination_branch_title">Destination Branch Details</string>
+    <string name="lb_eft_source_ac_title">Source Account Details</string>
+    <string name="lb_Destrination_Bank_code">Bank Code </string>
+    <string name="lb_Destrination_Bank_name">Bank Name </string>
+    <string name="lb_Destrination_Branch_code">Branch Code</string>
+    <string name="lb_Destrination_Branch_Name">Branch Name</string>
+    <string name="lb_eft_titile">Electronic Fund Transfer</string>
+    <string name="lb_eft_bank_serach_title">Bank Search</string>
+    <string name="lb_eft_bank_bank_search_title">Please  Search Bank</string>
+    <string name="lb_bank_code">Bank Code</string>
+    <string name="lb_bank_name">Bank Name.</string>
+    <string name="lb_branch_code">Branch Code</string>
+    <string name="lb_branch_name">Branch Name.</string>
+    <string name="lb_eft_branch_serach_title">Branch Search</string>
+    <string name="lb_eft_destination_ac">A/c No.</string>
+    <string name="lb_eft_destination_ac_title">A/c Title</string>
+    <string name="btn_bank_search">Search</string>
+    <string name="btn_bank_search_All">Search ALL</string>
+    <string name="btn_bank_close">Close</string>
+
+    <!-- Utility Bill -->
+    <string name="lb_utility_bill_title_home">Please Select Desired Option</string>
+
+    <!-- DPDC Bill Collection -->
+    <string name="dpdc_bill_titile"> DPDC Bill Collection</string>
+    <string name="dpdc_bill_location_code">Location Code</string>
+    <string name="dpdc_bill_customer_id">Customer Code</string>
+    <string name="dpdc_bill_month">Month</string>
+
+    <string name="dpdc_bill_number">Bill No.</string>
+    <string name="dpdc_bill_amount">Principal Amount</string>
+    <string name="dpdc_bill_due_date">Due Date</string>
+    <string name="dpdc_bill_amount_after_due_date">Amount after Due Date</string>
+    <string name="dpdc_bill_status">Bill Status</string>
+    <string name="dpdc_bill_vat">Vat Amount</string>
+    <string name="dpdc_bill_remarks">Remarks</string>
+    <string name="dpdc_bill_total_amount">Total Amount</string>
 
 
-        <!--Notification-->
-        <string name="lb_notification_tile">Notification</string>
-        <string name="title_activity_welcome">Welcome</string>
+    <!--Agent Account Balance-->
+    <string name="agent_account_balance_sl">SL No.</string>
+    <string name="agent_account_number">Account No.</string>
+    <string name="agent_account_title">Account Title</string>
+    <string name="agent_account_type">Account Type</string>
+    <string name="agent_account_balance">Balance</string>
 
-        <!--Registration 2-->
-        <string name="registraion_i_accept">
+    <!--Agent Banking Account Statement-->
+    <string name="agent_statement_debit_account">Debit A/c </string>
+    <string name="agent_statement_sl">SL</string>
+    <string name="agent_statement_transaction_date">Transaction Date</string>
+    <string name="agent_statement_debit_amount">Debit Amount</string>
+    <string name="agent_statement_credit_amount">Credit Amount</string>
+    <string name="agent_statement_balance">Balance</string>
+    <string name="agent_statement_narration">Narration</string>
+
+    <string name="speech_prompt">Say something..&#8230;</string>
+    <string name="speech_prompt_bn">কিছু বলুন..&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="side_chat_bot">Chat With Us</string>
+
+
+    <!--Notification-->
+    <string name="lb_notification_tile">Notification</string>
+    <string name="title_activity_welcome">Welcome</string>
+
+    <!--Registration 2-->
+    <string name="registraion_i_accept">
         <![CDATA[	I have read and agree with above terms & conditions.]]>
        </string>
 
-        <string name="language_select1"> অনুগ্রহ  করে ভাষা নির্বাচন করুন</string>
-        <string name="language_select">Please Select Language</string>
-        <string name="language_begali">বাংলা</string>
-        <string name="language_enlish">English</string>
+    <string name="language_select1"> অনুগ্রহ  করে ভাষা নির্বাচন করুন</string>
+    <string name="language_select">Please Select Language</string>
+    <string name="language_begali">বাংলা</string>
+    <string name="language_enlish">English</string>
 
-        <!--Begin Agent Talk Time Recharge-->
-        <string name="talk_time_recharge_agent_title">Top Up</string>
-        <string name="talk_time_pre_paid">Pre Paid</string>
-        <string name="talk_time_post_paid">Post Paid</string>
+    <!--Begin Agent Talk Time Recharge-->
+    <string name="talk_time_recharge_agent_title">Top Up</string>
+    <string name="talk_time_pre_paid">Pre Paid</string>
+    <string name="talk_time_post_paid">Post Paid</string>
 
-        <!--END Agent Talk Time Recharge-->
+    <!--END Agent Talk Time Recharge-->
 
-        <!--Begin Agent Cheque Enquiry-->
-        <string name="cheque_inquiry_title">Cheque Inquiry</string>
-        <string name="cheque_inquiry_leave_type">Leaf Type</string>
+    <!--Begin Agent Cheque Enquiry-->
+    <string name="cheque_inquiry_title">Cheque Inquiry</string>
+    <string name="cheque_inquiry_leave_type">Leaf Type</string>
 
-        <!--End Agent Cheque Enquiry-->
+    <!--End Agent Cheque Enquiry-->
 
-        <!--Begin Voely Error Message-->
-        <string name="voley_connection_time_out">Connection Time Out Error! Please Try Again.</string>
-        <string name="voley_server_error">Server Is Temporarily Unreachable! Please Try Again Later.</string>
-        <string name="voley_authentication_error">Authentication Error!</string>
-        <string name="voley_connection_network_error">Network Error!</string>
-        <string name="voley_connection_parser_error">Parser Error!</string>
-
-
-        <string name="voley_connection_time_out_bangla">কানেকশান টাইম আউট ! অনুগ্রহপূর্বক আবার চেষ্টা করুন ।</string>
-        <string name="voley_server_error_bangla">সার্ভার সামরিকভাবে পাওয়া যাচ্ছে না ! অনুগ্রহপূর্বক পরে আবার চেষ্টা করুন ।</string>
-        <string name="voley_authentication_error_bangla">অথেন্টিকেশন ত্রুটি!</string>
-        <string name="voley_connection_network_error_bangla">নেটওয়ার্ক ত্রুটি!</string>
-        <string name="voley_connection_parser_error_bangla">পার্সার ত্রুটি!</string>
+    <!--Begin Voely Error Message-->
+    <string name="voley_connection_time_out">Connection Time Out Error! Please Try Again.</string>
+    <string name="voley_server_error">Server Is Temporarily Unreachable! Please Try Again Later.</string>
+    <string name="voley_authentication_error">Authentication Error!</string>
+    <string name="voley_connection_network_error">Network Error!</string>
+    <string name="voley_connection_parser_error">Parser Error!</string>
 
 
-        <string name="json_null_error">Unable to Perform Your Request.Server Is Temporarily  Unreachable! Please Try Later.</string>
+    <string name="voley_connection_time_out_bangla">কানেকশান টাইম আউট ! অনুগ্রহপূর্বক আবার চেষ্টা করুন ।</string>
+    <string name="voley_server_error_bangla">সার্ভার সামরিকভাবে পাওয়া যাচ্ছে না ! অনুগ্রহপূর্বক পরে আবার চেষ্টা করুন ।</string>
+    <string name="voley_authentication_error_bangla">অথেন্টিকেশন ত্রুটি!</string>
+    <string name="voley_connection_network_error_bangla">নেটওয়ার্ক ত্রুটি!</string>
+    <string name="voley_connection_parser_error_bangla">পার্সার ত্রুটি!</string>
 
 
-        <string name="internet_connection_title_english"> Internet connection Error..</string>
-        <string name="internet_connection_details_english">No Internet Connection !</string>
-
-        <string name="internet_connection_title_bangla"> ইন্টারনেট কানেকশান করার সময় ত্রুটি ঘটেছে </string>
-        <string name="internet_connection_details_bangla"> কোনো ইন্টারনেট সংযোগ নেই! </string>
-
-        <string name="sweet_alert_title_bangla"> ত্রুটি আছে..</string>
-        <string name="sweet_alert_title_english">Error ..</string>
-
-        <string name="sweet_alert_title_bangla_success"> অভিনন্দন.</string>
-        <string name="sweet_alert_title_english_success">Successful ..</string>
-
-        <string name="opt_english_title">OTP..</string>
+    <string name="json_null_error">Unable to Perform Your Request.Server Is Temporarily  Unreachable! Please Try Later.</string>
 
 
-        <string name="opt_bangla_title"> ওয়ান টাইম পাসওয়ার্ড..</string>
-        <string name="opt_bangla_title_description">ওয়ান টাইম পাসওয়ার্ড আপনার মোবাইল / ইমেল পাঠানো হয়েছে।</string>
+    <string name="internet_connection_title_english"> Internet connection Error..</string>
+    <string name="internet_connection_details_english">No Internet Connection !</string>
+
+    <string name="internet_connection_title_bangla"> ইন্টারনেট কানেকশান করার সময় ত্রুটি ঘটেছে </string>
+    <string name="internet_connection_details_bangla"> কোনো ইন্টারনেট সংযোগ নেই! </string>
+
+    <string name="sweet_alert_title_bangla"> ত্রুটি আছে..</string>
+    <string name="sweet_alert_title_english">Error ..</string>
+
+    <string name="sweet_alert_title_bangla_success"> অভিনন্দন.</string>
+    <string name="sweet_alert_title_english_success">Successful ..</string>
+
+    <string name="opt_english_title">OTP..</string>
 
 
-        <!--Ene Voely Error Message-->
-
-        <string name="agent_change_password">Change Password</string>
-        <string name="agent_change_password_expiry_day">90</string>
-
-        <string name="our_sevice">Our Service</string>
-
-        <!---Log out -->
-        <string name="log_out_title_bagnla">আপনি কি লগ আউট করতে চান?</string>
-        <string name="log_out_ok_bagnla">ঠিক আছে</string>
-        <string name="log_out_cancel_bagnla">বাতিল</string>
+    <string name="opt_bangla_title"> ওয়ান টাইম পাসওয়ার্ড..</string>
+    <string name="opt_bangla_title_description">ওয়ান টাইম পাসওয়ার্ড আপনার মোবাইল / ইমেল পাঠানো হয়েছে।</string>
 
 
-        <string name="log_out_title_english">Log out now?</string>
-        <string name="log_out_ok_englsih">Yes</string>
-        <string name="log_out_cancel">No</string>
+    <!--Ene Voely Error Message-->
+
+    <string name="agent_change_password">Change Password</string>
+    <string name="agent_change_password_expiry_day">90</string>
+
+    <string name="our_sevice">Our Service</string>
+
+    <!---Log out -->
+    <string name="log_out_title_bagnla">আপনি কি লগ আউট করতে চান?</string>
+    <string name="log_out_ok_bagnla">ঠিক আছে</string>
+    <string name="log_out_cancel_bagnla">বাতিল</string>
 
 
+    <string name="log_out_title_english">Log out now?</string>
+    <string name="log_out_ok_englsih">Yes</string>
+    <string name="log_out_cancel">No</string>
 
 
+    <!--Credit card-->
+    <string name="credit_card_home_title">Please Select Desired Option</string>
+    <string name="credit_card_registration_title">Credit Card Registration Here</string>
+    <string name="credit_card_statement_title">Please Select Desired Date</string>
+    <string name="credit_card_statement_detail">Credit Card Details</string>
+    <string name="credit_card_no">Credit Card No.</string>
+    <string name="credit_card_type">Credit Card Type </string>
+
+    <string name="credit_card_list_payement_date">Payment Date</string>
+    <string name="credit_card_list_currency">Currency</string>
+    <string name="credit_card_list_view">View</string>
 
 
+    <string name="cridit_card_date">Date</string>
+    <string name="cridit_card_referance_no">Referance No.</string>
+    <string name="cridit_card_transaction_details">Trans. Details</string>
+    <string name="cridit_card_amount">Amount</string>
 
-        <!--Credit card-->
-        <string name="credit_card_home_title">Please Select Desired Option</string>
-        <string name="credit_card_registration_title">Credit Card Registration Here</string>
-        <string name="credit_card_statement_title">Please Select Desired Date</string>
-        <string name="credit_card_statement_detail">Credit Card Details</string>
-        <string name="credit_card_no">Credit Card No.</string>
-        <string name="credit_card_type">Credit Card Type </string>
-
-        <string name="credit_card_list_payement_date">Payment Date</string>
-        <string name="credit_card_list_currency">Currency</string>
-        <string name="credit_card_list_view">View</string>
-
-
-        <string name="cridit_card_date">Date</string>
-        <string name="cridit_card_referance_no">Referance No.</string>
-        <string name="cridit_card_transaction_details">Trans. Details</string>
-        <string name="cridit_card_amount">Amount</string>
-
-        <string name="credit_card_details_card_no">Card No.</string>
-        <string name="credit_card_details_name">Name</string>
-        <string name="credit_card_details_id">ID</string>
-        <string name="credit_card_details_statement_date">Statement Date</string>
-        <string name="credit_card_details_credit_limit">Credit Limit</string>
-        <string name="credit_card_details_available_credit_limit">Available Credit Limit</string>
-        <string name="credit_card_details_available_cash_limit">Available Cash Limit</string>
-        <string name="credit_card_details_payment_due_date">Payment Due Date</string>
-        <string name="credit_card_details_minimum_amount_due">Minimum Amount Due</string>
-        <string name="credit_card_details_previous_balance">Previous Balance </string>
-        <string name="credit_card_details_purchases"> +  Purchases</string>
-        <string name="credit_card_details_cash_advance"> +  Cash Advance</string>
-        <string name="credit_card_details_interest_charge"> +  Interest/Charge </string>
-        <string name="credit_card_details_payment"> -  Payments </string>
-        <string name="credit_card_details_credits"> -  Credits</string>
-        <string name="credit_card_details_current_balance"> =  Current Balance</string>
-        <string name="credit_card_details_minimum_amount_due_plus">Minimum Amount Due</string>
-        <string name="credit_card_details_excess_amount">+  Excess Amount</string>
-        <string name="credit_card_details_installment">+  Installment</string>
-        <string name="credit_card_details_total_minimum_due"> =  Total Minimum Due</string>
-        <string name="credit_card_details_reward_point_earned">Reward Points Earned </string>
-        <string name="credit_card_details_reward_point_redeened"> - Reward Points Redeemed</string>
-        <string name="credit_card_details_net_reward_points">=  Net Reward Points</string>
+    <string name="credit_card_details_card_no">Card No.</string>
+    <string name="credit_card_details_name">Name</string>
+    <string name="credit_card_details_id">ID</string>
+    <string name="credit_card_details_statement_date">Statement Date</string>
+    <string name="credit_card_details_credit_limit">Credit Limit</string>
+    <string name="credit_card_details_available_credit_limit">Available Credit Limit</string>
+    <string name="credit_card_details_available_cash_limit">Available Cash Limit</string>
+    <string name="credit_card_details_payment_due_date">Payment Due Date</string>
+    <string name="credit_card_details_minimum_amount_due">Minimum Amount Due</string>
+    <string name="credit_card_details_previous_balance">Previous Balance </string>
+    <string name="credit_card_details_purchases"> +  Purchases</string>
+    <string name="credit_card_details_cash_advance"> +  Cash Advance</string>
+    <string name="credit_card_details_interest_charge"> +  Interest/Charge </string>
+    <string name="credit_card_details_payment"> -  Payments </string>
+    <string name="credit_card_details_credits"> -  Credits</string>
+    <string name="credit_card_details_current_balance"> =  Current Balance</string>
+    <string name="credit_card_details_minimum_amount_due_plus">Minimum Amount Due</string>
+    <string name="credit_card_details_excess_amount">+  Excess Amount</string>
+    <string name="credit_card_details_installment">+  Installment</string>
+    <string name="credit_card_details_total_minimum_due"> =  Total Minimum Due</string>
+    <string name="credit_card_details_reward_point_earned">Reward Points Earned </string>
+    <string name="credit_card_details_reward_point_redeened"> - Reward Points Redeemed</string>
+    <string name="credit_card_details_net_reward_points">=  Net Reward Points</string>
 
 
-        <!-- NPSB-->
-        <string name="npsb_title">Fund Transfer Through NPSB</string>
-        <string name="npsb_destination_no">Credit A/c No.</string>
-        <string name="npsb_destination_title">Credit A/c Title</string>
-        <!-- Add Benefisary-->
-        <string name="npsb_add_benefisary_title">Add Beneficiary</string>
-        <string name="npsb_add_benefisary_type">Destination Type</string>
-        <string name="npsb_add_benefisary_bank">Credit Bank</string>
-        <string name="npsb_add_benefisary_branch">Credit Branch</string>
-        <string name="npsb_add_benefisary_ac">Account/Card No</string>
-        <string name="npsb_add_benefisary_ac_title">Account/Card Title</string>
-        <string name="npsb_add_benefisary_mobile_no">Mobile</string>
-        <string name="npsb_add_benefisary_status">Status</string>
-        <string name="npsb_add_benefisary_edit">Edit</string>
+    <!-- NPSB-->
+    <string name="npsb_title">Fund Transfer Through NPSB</string>
+    <string name="npsb_destination_no">Credit A/c No.</string>
+    <string name="npsb_destination_title">Credit A/c Title</string>
+    <!-- Add Benefisary-->
+    <string name="npsb_add_benefisary_title">Add Beneficiary</string>
+    <string name="npsb_add_benefisary_type">Destination Type</string>
+    <string name="npsb_add_benefisary_bank">Credit Bank</string>
+    <string name="npsb_add_benefisary_branch">Credit Branch</string>
+    <string name="npsb_add_benefisary_ac">Account/Card No</string>
+    <string name="npsb_add_benefisary_ac_title">Account/Card Title</string>
+    <string name="npsb_add_benefisary_mobile_no">Mobile</string>
+    <string name="npsb_add_benefisary_status">Status</string>
+    <string name="npsb_add_benefisary_edit">Edit</string>
 
-        <!-- View Benefisary-->
-        <string name="npsb_view_benefisary_title">View Beneficiary</string>
-        <string name="npsb_account_card_no">Account/Card Number</string>
-        <string name="npsb_account_card_title">Account/Card Title</string>
+    <!-- View Benefisary-->
+    <string name="npsb_view_benefisary_title">View Beneficiary</string>
+    <string name="npsb_account_card_no">Account/Card Number</string>
+    <string name="npsb_account_card_title">Account/Card Title</string>
 
-        <!-- Payonear-->
-        <!-- <string name="payoneer_registration_title">Payoneer Registration</string>
+    <!-- Payonear-->
+    <!-- <string name="payoneer_registration_title">Payoneer Registration</string>
          <string name="btn_payoneer_registration">REGISTER</string>
          <string name="btn_payoneer_login">LOGIN</string>
          <string name="payoneer_available_balance">Available Balance</string>
          <string name="payoneer_virtual_balance">Virtual Amount</string>
      -->
 
-        <string name="payoneer_submit">Submit</string>
+    <string name="payoneer_submit">Submit</string>
 
-        <string name="payoneer_home_title">Please Select Payoneer Options</string>
+    <string name="payoneer_home_title">Please Select Payoneer Options</string>
 
-        <string name="payoneer_sumit_title">Payee Id Link</string>
-        <string name="payoneer_redirect">Payoneer Registration Success</string>
-        <string name="payoneer_payout">Payoneer Payout</string>
-        <string name="payoneer_balance_titile">Payoneer Balance</string>
+    <string name="payoneer_sumit_title">Payee Id Link</string>
+    <string name="payoneer_redirect">Payoneer Registration Success</string>
+    <string name="payoneer_payout">Payoneer Payout</string>
+    <string name="payoneer_balance_titile">Payoneer Balance</string>
 
-        <string name="payoneer_registration_title">Payoneer Registration</string>
-        <string name="btn_payoneer_registration">REGISTER</string>
-        <string name="btn_payoneer_login">LOGIN</string>
-        <string name="payoneer_available_balance">Current Balance</string>
-        <string name="payoneer_virtual_balance">Virtual Amount</string>
-        <string name="payee_id">PAYEE ID</string>
-        <string name="payoneer_terms">I am registering my payoneer account to Bank Asia payoneer account for transfering fund, check balance &amp; views history.</string>
-        <string name="payoneer_payment">I understand that I am debiting my account to transfer the amount to my account/card in Bank Asia through this app.</string>
+    <string name="payoneer_registration_title">Payoneer Registration</string>
+    <string name="btn_payoneer_registration">REGISTER</string>
+    <string name="btn_payoneer_login">LOGIN</string>
+    <string name="payoneer_available_balance">Current Balance</string>
+    <string name="payoneer_virtual_balance">Virtual Amount</string>
+    <string name="payee_id">PAYEE ID</string>
+    <string name="payoneer_terms">I am registering my payoneer account to Bank Asia payoneer account for transfering fund, check balance &amp; views history.</string>
+    <string name="payoneer_payment">I understand that I am debiting my account to transfer the amount to my account/card in Bank Asia through this app.</string>
 
-        <string name="payoneer_payment_details">FOR PAYMENT</string>
-        <string name="payoneer_payment_payeeid">PAYEE ID</string>
-        <string name="payoneer_payment_termsyes_label">Terms</string>
-        <string name="payoneer_payment_termsyes_label_yes">YES</string>
+    <string name="payoneer_payment_details">FOR PAYMENT</string>
+    <string name="payoneer_payment_payeeid">PAYEE ID</string>
+    <string name="payoneer_payment_termsyes_label">Terms</string>
+    <string name="payoneer_payment_termsyes_label_yes">YES</string>
 
-        <string name="payoneer_payment_shadin_card">SHADHIN CARD</string>
-
-
-        <string name="payoneer_payment_history">View Payment History</string>
-        <string name="payoneer_payment_history_date">PAYMENT DATE</string>
-        <string name="payoneer_payment_history_bdt_portion">BDT PORTION</string>
-        <string name="payoneer_payment_history_usd_portion">USD PORTION</string>
-        <string name="payoneer_payment_history_btd_total_amout">BDT AMOUNT</string>
-        <string name="payoneer_payment_history_bdt_rate">RATE</string>
+    <string name="payoneer_payment_shadin_card">SHADHIN CARD</string>
 
 
-        <string name="payoneer_empty">***</string>
-        <string name="payoneer_usd_detfaul_currency">USD 0.0</string>
-
-        <!--New Home Page-->
-        <string name="home_new_user">New User?</string>
-        <string name="home_register_here">Register Here</string>
-        <string name="forget_user_id">Forget User ID?/</string>
-        <string name="forget_password">Forget Password?</string>
+    <string name="payoneer_payment_history">View Payment History</string>
+    <string name="payoneer_payment_history_date">PAYMENT DATE</string>
+    <string name="payoneer_payment_history_bdt_portion">BDT PORTION</string>
+    <string name="payoneer_payment_history_usd_portion">USD PORTION</string>
+    <string name="payoneer_payment_history_btd_total_amout">BDT AMOUNT</string>
+    <string name="payoneer_payment_history_bdt_rate">RATE</string>
 
 
+    <string name="payoneer_empty">***</string>
+    <string name="payoneer_usd_detfaul_currency">USD 0.0</string>
 
-        <!--Dialog Message-->
-        <string name="success_dialog_title">Thank You!</string>
-        <string name="success_dialog_date">DATE</string>
-        <string name="success_dialog_to">TO</string>
-        <string name="success_dialog_amount">AMOUNT</string>
-
-        <string name="success_audit_id">AUDIT ID</string>
-        <string name="success_complete">COMPLETED</string>
-
-
-        <!--bkas -->
-        <!--<string name="bkash_home_title">Transfer to bKash</string>-->
-        <string name="bkash_home_title">Transfer to bKash</string>
+    <!--New Home Page-->
+    <string name="home_new_user">New User?</string>
+    <string name="home_register_here">Register Here</string>
+    <string name="forget_user_id">Forget User ID?/</string>
+    <string name="forget_password">Forget Password?</string>
 
 
-        <!--bkas -->
-        <string name="bkash_add_be_title">Add Beneficiary to bKash</string>
-        <string name="bkash_walet_no">bKash Wallet No</string>
-        <string name="bkash_walet_title">bKash Wallet Title</string>
-        <string name="bkash_walet_status">Status</string>
-        <string name="bkash_walet_remarks">Remarls</string>
+    <!--Dialog Message-->
+    <string name="success_dialog_title">Thank You!</string>
+    <string name="success_dialog_date">DATE</string>
+    <string name="success_dialog_to">TO</string>
+    <string name="success_dialog_amount">AMOUNT</string>
 
-        <!--<string name="bkash_home_title">Transfer to bKash</string>-->
-        <string name="bkash_transfer_title">Transfer to bKash</string>
-        <string name="bkash_transfer_dob">DOB</string>
-
-        <string name="bkash_view_beneficiary_tile">bKash View Beneficiary</string>
-
-        <string name="bkash_account_no">bKash Account No</string>
-        <string name="bkash_account_title">bKash Account Title</string>
-        <string name="bkash_confim_title">Confirm Your bKash  Amount</string>
-        <string name="bkash_success_title">Thank You!</string>
-        <string name="bkash_success_sub_title">Your transaction is successful</string>
-        <string name="bkash_success_from">From</string>
-        <string name="bkash_success_to">To</string>
-        <string name="bkash_date">Date</string>
-        <string name="bkash_complete">Completed</string>
-        <string name="bkash_confirm">Confirm</string>
+    <string name="success_audit_id">AUDIT ID</string>
+    <string name="success_complete">COMPLETED</string>
 
 
-        <!--Forget user password -->
-        <string name="forget_password_title">Forget Password</string>
-        <string name="forget_password_title_details">You will get OTP if you press continue or resend OTP to your register email or mobile phone..</string>
-        <string name="forget_pass_dob"> Date Of Birth</string>
-        <string name="forget_pass_otp_verificaton_Title"> OTP VERIFICATION</string>
-        <string name="forget_pass_otp_verificaton_detatils">Please enter your OTP to verify and send password change instruction to you mobile or email..</string>
-        <string name="forget_pass_btn_verify">VERIFY OTP</string>
-        <string name="forget_pass_btn_back">Back</string>
-        <string name="forget_pass_btn_resend">RESEND OTP</string>
-        <string name="forget_pass_btn_continue">Continue</string>
+    <!--bkas -->
+    <!--<string name="bkash_home_title">Transfer to bKash</string>-->
+    <string name="bkash_home_title">Transfer to bKash</string>
 
 
-        <!--bkas -->
-        <string name="bank_asia_add_beneficiary_title">Add Beneficiary For Bank Asia</string>
-        <string name="bank_asia_view_beneficiary_title">View Beneficiary For Bank Asia</string>
-        <string name="bank_asia_add_beneficiary_dialog_title">Accoun Number</string>
-        <string name="bank_asia_modify_beneficiary_dialog_title">Update Beneficiary</string>
-        <string name="bank_asia_add_beneficiary_dialog_sourve_title">Please Enter Your Accoun Number &amp; Press Search Account Title </string>
-        <string name="limit_amount">Limit Amount</string>
-        <!--Bangla Character-->
-        <string name="bagla_debit_account">ডেবিট অ্যাকাউন্ট</string>
-        <string name="bagla_account_title">হিসাবের শিরোনাম</string>
-        <string name="bagla_account_balance">হিসাবের স্থিতি</string>
-        <string name="bagla_amount">টাকার পরিমাণ</string>
-        <string name="bagla_destination_account">ক্রেডিট অ্যাকাউন্ট</string>
-        <string name="bagla_destination_account_title">ক্রেডিট অ্যাকাউন্ট</string>
-        <string name="bagla_destination_currency">মুদ্রা</string>
-        <string name="bagla_remarks">মন্তব্য</string>
-        <string name="bagla_otp">ওয়ান টাইম পাসওয়ার্ড</string>
-        <string name="bagla_btn_submit">সাবমিট</string>
-        <string name="bagla_btn_clear">মুছে ফেলুন</string>
-        <string name="bagla_from_date">তারিখ থেকে</string>
-        <string name="bagla_to_date">তারিখ পর্যন্ত</string>
-        <string name="bagla_era_title">আইটি পার্টনার : ইরা ইনফোটেক লিমিটেড</string>
+    <!--bkas -->
+    <string name="bkash_add_be_title">Add Beneficiary to bKash</string>
+    <string name="bkash_walet_no">bKash Wallet No</string>
+    <string name="bkash_walet_title">bKash Wallet Title</string>
+    <string name="bkash_walet_status">Status</string>
+    <string name="bkash_walet_remarks">Remarls</string>
 
-        <string name="bagla_leave_type">পাতা টাইপ</string>
+    <!--<string name="bkash_home_title">Transfer to bKash</string>-->
+    <string name="bkash_transfer_title">Transfer to bKash</string>
+    <string name="bkash_transfer_dob">DOB</string>
+
+    <string name="bkash_view_beneficiary_tile">bKash View Beneficiary</string>
+
+    <string name="bkash_account_no">bKash Account No</string>
+    <string name="bkash_account_title">bKash Account Title</string>
+    <string name="bkash_confim_title">Confirm Your bKash  Amount</string>
+    <string name="bkash_success_title">Thank You!</string>
+    <string name="bkash_success_sub_title">Your transaction is successful</string>
+    <string name="bkash_success_from">From</string>
+    <string name="bkash_success_to">To</string>
+    <string name="bkash_date">Date</string>
+    <string name="bkash_complete">Completed</string>
+    <string name="bkash_confirm">Confirm</string>
 
 
-        <!--About Us-->
-        <string name="smart_app_details">স্মার্ট অ্যাপ (সংস্করণ 1.0.8) ব্যাংক এশিয়ার গ্রাহকদের জন্য অতি দ্রুত, ঝামেলা মুক্ত এবং সুরক্ষিত একটি মোবাইল ব্যাংকিং অ্যাপ্। এই অ্যাপ্ এর মাধ্যমে ব্যাংক এশিয়া ইন্টারনেট ব্যাংকিং ব্যবহারকারীগণ হিসাবের স্থিতি , হিসাবের বিবরণ, ফান্ড ট্রান্সফার &#47; ই এফ টি , ইউটিলিটি বিল পেমেন্ট, মোবাইল টক-টাইম রিচার্জ ইত্যাদি সেবাসমূহ গ্রহণ করতে পারবেন। অ্যাপ স্টোর &#47; প্লে স্টোর থেকে এই অ্যাপটি ডাউনলোড করুন এবং হোম পেজ থেকে নিবন্ধন প্রক্রিয়াটি সম্পূর্ণ করে লগ ইন করার জন্য আপনার ব্যাংক এশিয়ার ইন্টারনেট ব্যাংকিং এর ইউজার আইডি ও পাসওয়ার্ড ব্যবহার করুন । এই অ্যাপটি গ্রাহকদের যেকোনো অবস্থান নিবির্শেষে দিনরাত (২৪&#47;৭) ব্যাংকিং সেবা প্রদান করতে সক্ষম।</string>
-        <string name="customer_care_hote_line_details">আপনার যে কোনো মতামত থাকলে অনুগ্রহ করে ইমেইল এর মাধ্যমে আমাদেরকে জানান : adc.ba@bankasia-bd.com কাস্টমার কেয়ার হটলাইন (২৪&#47;৭) : ১৬২০৫, ০৯৬১৭০১৬২০৫ ইমেইল : contact.center@bankasia-bd.com</string>
-        <string name="bangla_safe_type">এই অ্যাপটি ব্যবহারের মাধ্যমে ব্যাংকিং এবং আর্থিক লেনদেন এখন আপনার হাতের
+    <!--Forget user password -->
+    <string name="forget_password_title">Forget Password</string>
+    <string name="forget_password_title_details">You will get OTP if you press continue or resend OTP to your register email or mobile phone..</string>
+    <string name="forget_pass_dob"> Date Of Birth</string>
+    <string name="forget_pass_otp_verificaton_Title"> OTP VERIFICATION</string>
+    <string name="forget_pass_otp_verificaton_detatils">Please enter your OTP to verify and send password change instruction to you mobile or email..</string>
+    <string name="forget_pass_btn_verify">VERIFY OTP</string>
+    <string name="forget_pass_btn_back">Back</string>
+    <string name="forget_pass_btn_resend">RESEND OTP</string>
+    <string name="forget_pass_btn_continue">Continue</string>
+
+
+    <!--bkas -->
+    <string name="bank_asia_add_beneficiary_title">Add Beneficiary For Bank Asia</string>
+    <string name="bank_asia_view_beneficiary_title">View Beneficiary For Bank Asia</string>
+    <string name="bank_asia_add_beneficiary_dialog_title">Accoun Number</string>
+    <string name="bank_asia_modify_beneficiary_dialog_title">Update Beneficiary</string>
+    <string name="bank_asia_add_beneficiary_dialog_sourve_title">Please Enter Your Accoun Number &amp; Press Search Account Title </string>
+    <string name="limit_amount">Limit Amount</string>
+    <!--Bangla Character-->
+    <string name="bagla_debit_account">ডেবিট অ্যাকাউন্ট</string>
+    <string name="bagla_account_title">হিসাবের শিরোনাম</string>
+    <string name="bagla_account_balance">হিসাবের স্থিতি</string>
+    <string name="bagla_amount">টাকার পরিমাণ</string>
+    <string name="bagla_destination_account">ক্রেডিট অ্যাকাউন্ট</string>
+    <string name="bagla_destination_account_title">ক্রেডিট অ্যাকাউন্ট</string>
+    <string name="bagla_destination_currency">মুদ্রা</string>
+    <string name="bagla_remarks">মন্তব্য</string>
+    <string name="bagla_otp">ওয়ান টাইম পাসওয়ার্ড</string>
+    <string name="bagla_btn_submit">সাবমিট</string>
+    <string name="bagla_btn_clear">মুছে ফেলুন</string>
+    <string name="bagla_from_date">তারিখ থেকে</string>
+    <string name="bagla_to_date">তারিখ পর্যন্ত</string>
+    <string name="bagla_era_title">আইটি পার্টনার : ইরা ইনফোটেক লিমিটেড</string>
+
+    <string name="bagla_leave_type">পাতা টাইপ</string>
+
+
+    <!--About Us-->
+    <string name="smart_app_details">স্মার্ট অ্যাপ (সংস্করণ 1.0.8) ব্যাংক এশিয়ার গ্রাহকদের জন্য অতি দ্রুত, ঝামেলা মুক্ত এবং সুরক্ষিত একটি মোবাইল ব্যাংকিং অ্যাপ্। এই অ্যাপ্ এর মাধ্যমে ব্যাংক এশিয়া ইন্টারনেট ব্যাংকিং ব্যবহারকারীগণ হিসাবের স্থিতি , হিসাবের বিবরণ, ফান্ড ট্রান্সফার &#47; ই এফ টি , ইউটিলিটি বিল পেমেন্ট, মোবাইল টক-টাইম রিচার্জ ইত্যাদি সেবাসমূহ গ্রহণ করতে পারবেন। অ্যাপ স্টোর &#47; প্লে স্টোর থেকে এই অ্যাপটি ডাউনলোড করুন এবং হোম পেজ থেকে নিবন্ধন প্রক্রিয়াটি সম্পূর্ণ করে লগ ইন করার জন্য আপনার ব্যাংক এশিয়ার ইন্টারনেট ব্যাংকিং এর ইউজার আইডি ও পাসওয়ার্ড ব্যবহার করুন । এই অ্যাপটি গ্রাহকদের যেকোনো অবস্থান নিবির্শেষে দিনরাত (২৪&#47;৭) ব্যাংকিং সেবা প্রদান করতে সক্ষম।</string>
+    <string name="customer_care_hote_line_details">আপনার যে কোনো মতামত থাকলে অনুগ্রহ করে ইমেইল এর মাধ্যমে আমাদেরকে জানান : adc.ba@bankasia-bd.com কাস্টমার কেয়ার হটলাইন (২৪&#47;৭) : ১৬২০৫, ০৯৬১৭০১৬২০৫ ইমেইল : contact.center@bankasia-bd.com</string>
+    <string name="bangla_safe_type">এই অ্যাপটি ব্যবহারের মাধ্যমে ব্যাংকিং এবং আর্থিক লেনদেন এখন আপনার হাতের
 
 নাগালে । এই অ্যাপটির মাধ্যমে নিরাপদ লেনদেনের ক্ষেত্রে কিছু সতর্কতা নিম্নে দেয়া হলো : \n
 
@@ -551,11 +545,11 @@
 করুন।</string>
 
 
-        <!--Terms condiction-->
+    <!--Terms condiction-->
 
-        <string name="terms_title">Conditions</string>
+    <string name="terms_title">Conditions</string>
 
-        <string name="bangla_terms_conditon">
+    <string name="bangla_terms_conditon">
       <b> <u> সতর্কতা :</u></b> \n\n
         এই অ্যাপটি ব্যাংক এশিয়ার নিজস্ব ডোমেইন এর অন্তর্ভুক্ত যা আর্থিক লেনদেন যোগাযোগের জন্য প্রযোজ্য। এই এপটি ব্যবহার
 
@@ -703,26 +697,26 @@
 
 ক্ষতি&#47;বিরোধ&#47;বিতর্কের সৃষ্টি হয় সেক্ষেত্রে ব্যাংক আইনানুগ ব্যবস্থা গ্রহণের অধিকার সংরক্ষণ করে।
     </string>
-        <!-- Contact -->
-        <string name="tv_contact_string">
+    <!-- Contact -->
+    <string name="tv_contact_string">
         <!-- Map Version -->
-            <!-- <integer name="google_play_services_version">4030500</integer> -->
+        <!-- <integer name="google_play_services_version">4030500</integer> -->
 
 
-            <![CDATA[
+        <![CDATA[
 <p><h4>Customer Care HotLine</h4></p>
 <p>Call Center: 16205, +8809617016205</p>
 <p>Email: contact.center@bankasia-bd.com</p>
 ]]>
     </string>
-        <string name="tv_about_mobiApps">
+    <string name="tv_about_mobiApps">
 <![CDATA[
 	<p>MobiApps is secure and easy internet banking system. You are available for internet banking through MobiApps in Bank Asia.
 	Registration process must be done correctly to access the app  with your own device . You also need to have an internet Banking User ID and
 	Password from Bank Asia.</p>
 ]]>
     </string>
-        <string name="tv_terms_and_privacy_mobiApps">
+    <string name="tv_terms_and_privacy_mobiApps">
 <![CDATA[
 	<p>MobiApps Banking Terms & Conditions</p>
 	<p>
@@ -731,18 +725,18 @@
 	</p>
 ]]>
     </string>
-        <string name="title_activity_ecommerce">Ecommerce</string>
-        <string name="lb_ecomerce_card_number">Card Number </string>
-        <string name="tv_about">About</string>
-        <string name="tv_customer_hotline">Customer Care Hotline</string>
-        <string name="tv_about_us">About Us</string>
+    <string name="title_activity_ecommerce">Ecommerce</string>
+    <string name="lb_ecomerce_card_number">Card Number </string>
+    <string name="tv_about">About</string>
+    <string name="tv_customer_hotline">Customer Care Hotline</string>
+    <string name="tv_about_us">About Us</string>
 
-        <!-- About -->
-        <string name="lb_hotline">24/7 Call Center: 16205
+    <!-- About -->
+    <string name="lb_hotline">24/7 Call Center: 16205
 +8809617016205
 Email: contact.center@bankasia-bd.com
 </string>
-        <string name="lb_about_text">
+    <string name="lb_about_text">
 <![CDATA[
 Bank Asia SMART App(Version 1.0.8) is fast, hassle free & secure mobile App for Bank Asia
 Customer. It offers the convenience of  Balance Inquiry and Account Statement, the
@@ -753,11 +747,11 @@ users will login with the same User ID & Password. For assistance please dial
 ]]>
     </string>
 
-        <!-- Terms and Privacey -->
+    <!-- Terms and Privacey -->
 
 
-        <string name="lb_safty_trip">Safety Tips</string>
-        <string name="lb_safty_trip_text">
+    <string name="lb_safty_trip">Safety Tips</string>
+    <string name="lb_safty_trip_text">
 <![CDATA[
 Using Bank Asia SMART App, banking & financial transactions are at your fingertips.
 Here some precautions for safe and secure transaction using mobile banking app:\n
@@ -779,7 +773,7 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
 ]]>
     </string>
 
-        <string name="terms_contiong_english">
+    <string name="terms_contiong_english">
         <b><u>ATTENTION : </u></b>\n\n
         This legal notice applies to the entire contents of this website &amp; this application under the domain name www.bankasia.net (website) and to any correspondence by email between us and you. Please read these terms carefully before using this website or this application. Using this website or this application indicates that you accept these terms regardless of whether or not you choose to register with us. If you do not accept these terms, do not use this website or this application. This notice is issued by NET SUPPORT TEAM.\n\n
 
@@ -849,7 +843,7 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
     </string>
 
 
-        <string name="terms_privacy_english">
+    <string name="terms_privacy_english">
        <![CDATA[
     <html>
     <head>
@@ -875,7 +869,7 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
    ]]>
 </string>
 
-        <string name="terms_privacy_bangla">
+    <string name="terms_privacy_bangla">
        <![CDATA[
     <html>
     <head>
@@ -902,128 +896,125 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
     </html>
    ]]>
 </string>
-        <string name="ai_name">AVA</string>
-        <string name="bill_title">Bill Payment</string>
-        <string name="bill_source_account_title">Source Account</string>
-        <string name="enter_bill_account_number">Enter Bill Account Number</string>
-        <string name="bank_information">Bank Information</string>
-        <string name="source_a_c">Source A/C</string>
-        <string name="source_a_c_title">Source A/C Title</string>
-        <string name="available_balance">Available Balance</string>
-        <string name="desco_information">DESCO Information</string>
-        <string name="customer_name">Customer Name</string>
-        <string name="customer_a_c">Customer A/C</string>
-        <string name="metro_no">Metro No</string>
-        <string name="month_bill">Month bill</string>
-        <string name="due_date">Due Date</string>
-        <string name="bill_amount">Bill Amount</string>
-        <string name="otp">OTP</string>
-        <string name="enter_your_otp">Enter Your OTP.</string>
-        <string name="account_title">Account Title</string>
-        <string name="wasa_information">WASA Information</string>
-        <string name="inspector_id">Inspector ID</string>
-        <string name="water_bill">Water Bill</string>
-        <string name="sewer_bill">Sewer Bill</string>
-        <string name="vat_amount">VAT Amount</string>
-        <string name="amount_vat">amount+Vat</string>
-        <string name="location_code">Location Code</string>
-        <string name="dpdc_information">DPDC Information</string>
-        <string name="customer_code">Customer Code</string>
-        <string name="month">Month</string>
-        <string name="year">Year</string>
-        <string name="bill_no">Bill No</string>
-        <string name="total_amount">Total Amount</string>
-        <string name="principle_amount">Principle Amount</string>
-        <string name="amount_after_due_date">Amount After Due Date</string>
-        <string name="bill_status">Bill Status</string>
-        <string name="ser_charge">Ser-Charge</string>
-        <string name="fixed_charge">Fixed Charge</string>
-        <string name="total_bill">Total Bill</string>
+    <string name="ai_name">AVA</string>
+    <string name="bill_title">Bill Payment</string>
+    <string name="bill_source_account_title">Source Account</string>
+    <string name="enter_bill_account_number">Enter Bill Account Number</string>
+    <string name="bank_information">Bank Information</string>
+    <string name="source_a_c">Source A/C</string>
+    <string name="source_a_c_title">Source A/C Title</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="desco_information">DESCO Information</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_a_c">Customer A/C</string>
+    <string name="metro_no">Metro No</string>
+    <string name="month_bill">Month bill</string>
+    <string name="due_date">Due Date</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="otp">OTP</string>
+    <string name="enter_your_otp">Enter Your OTP.</string>
+    <string name="account_title">Account Title</string>
+    <string name="wasa_information">WASA Information</string>
+    <string name="inspector_id">Inspector ID</string>
+    <string name="water_bill">Water Bill</string>
+    <string name="sewer_bill">Sewer Bill</string>
+    <string name="vat_amount">VAT Amount</string>
+    <string name="amount_vat">amount+Vat</string>
+    <string name="location_code">Location Code</string>
+    <string name="dpdc_information">DPDC Information</string>
+    <string name="customer_code">Customer Code</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="bill_no">Bill No</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="principle_amount">Principle Amount</string>
+    <string name="amount_after_due_date">Amount After Due Date</string>
+    <string name="bill_status">Bill Status</string>
+    <string name="ser_charge">Ser-Charge</string>
+    <string name="fixed_charge">Fixed Charge</string>
+    <string name="total_bill">Total Bill</string>
 
-        <!--new Talk time reacharge-->
-        <string name="enter_number_or_name">Enter Number Or Name</string>
-        <string name="mobile_recharge">Mobile Recharge</string>
-        <string name="mobile_number">Mobile Number</string>
-        <string name="mobile_operator">Mobile Operator</string>
-        <string name="mobile_type">Mobile Type</string>
-        <string name="pre_paid">Pre Paid</string>
-        <string name="post_paid">Post Paid</string>
-        <string name="enter_amount">ENTER AMOUNT</string>
-        <string name="recharge_amount_first">50 tk</string>
-        <string name="recharge_amount_second">100 tk</string>
-        <string name="recharge_amount_third">150 tk</string>
-        <string name="recharge_amount_four">200 tk</string>
-        <string name="recharge_information">Recharge Information</string>
-        <string name="number">Mobile Number</string>
-        <string name="account_no">Account No</string>
-        <string name="recharge_amount">Recharge Amount</string>
-        <string name="enter_password">ENTER PASSWORD</string>
-        <string name="confirm">Confirm</string>
-        <string name="default_amount">50</string>
-        <string name="operator">Operator</string>
-        <string name="tk_btd">BDT</string>
-
-
-        <!--begin finger print-->
-        <string name="fingerprint_state_scanning">Touch sensor</string>
-        <string name="fingerprint_state_success">Fingerprint recognized</string>
-        <string name="fingerprint_state_failure">Fingerprint not recognized.\nTry again.</string>
-        <string name="fingerprint_cancel">Cancel</string>
-        <string name="fingerprint_use_password">Use Password</string>
-        <string name="fingerprint_icon_description">Fingerprint icon</string>
-
-        <string name="password_confirm">Confirm</string>
-        <string name="password_cancel">Cancel</string>
-        <string name="password_incorrect">Incorrect Password</string>
+    <!--new Talk time reacharge-->
+    <string name="enter_number_or_name">Enter Number Or Name</string>
+    <string name="mobile_recharge">Mobile Recharge</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="mobile_operator">Mobile Operator</string>
+    <string name="mobile_type">Mobile Type</string>
+    <string name="pre_paid">Pre Paid</string>
+    <string name="post_paid">Post Paid</string>
+    <string name="enter_amount">ENTER AMOUNT</string>
+    <string name="recharge_amount_first">50 tk</string>
+    <string name="recharge_amount_second">100 tk</string>
+    <string name="recharge_amount_third">150 tk</string>
+    <string name="recharge_amount_four">200 tk</string>
+    <string name="recharge_information">Recharge Information</string>
+    <string name="number">Mobile Number</string>
+    <string name="account_no">Account No</string>
+    <string name="recharge_amount">Recharge Amount</string>
+    <string name="enter_password">ENTER PASSWORD</string>
+    <string name="confirm">Confirm</string>
+    <string name="default_amount">50</string>
+    <string name="operator">Operator</string>
+    <string name="tk_btd">BDT</string>
 
 
+    <!--begin finger print-->
+    <string name="fingerprint_state_scanning">Touch sensor</string>
+    <string name="fingerprint_state_success">Fingerprint recognized</string>
+    <string name="fingerprint_state_failure">Fingerprint not recognized.\nTry again.</string>
+    <string name="fingerprint_cancel">Cancel</string>
+    <string name="fingerprint_use_password">Use Password</string>
+    <string name="fingerprint_icon_description">Fingerprint icon</string>
+
+    <string name="password_confirm">Confirm</string>
+    <string name="password_cancel">Cancel</string>
+    <string name="password_incorrect">Incorrect Password</string>
 
 
-        <string name="password_expired">you have tried many times ,please try again later</string>
-        <string name="fingerprint_title">Please touch your finger into the fingerprint sensor</string>
-        <string name="fingerprint_message">If data match then you can get access</string>
-        <string name="password_title">Enter Your Password</string>
-        <string name="password_message">To enable fingerPrint login</string>
-        <string name="password_message2">Device system fingerprint has been modified</string>
+    <string name="password_expired">you have tried many times ,please try again later</string>
+    <string name="fingerprint_title">Please touch your finger into the fingerprint sensor</string>
+    <string name="fingerprint_message">If data match then you can get access</string>
+    <string name="password_title">Enter Your Password</string>
+    <string name="password_message">To enable fingerPrint login</string>
+    <string name="password_message2">Device system fingerprint has been modified</string>
 
-        <!--end finger print-->
+    <!--end finger print-->
 
-        <!--Begin Settings-->
-        <string name="setting_titile">GENERAL SETTING</string>
+    <!--Begin Settings-->
+    <string name="setting_titile">GENERAL SETTING</string>
 
-        <string name="setting_bangla_language">Bangla Language</string>
-        <string name="setting_with_fingerprint">Login with FingerPrint</string>
+    <string name="setting_bangla_language">Bangla Language</string>
+    <string name="setting_with_fingerprint">Login with FingerPrint</string>
 
-        <!--End Settings-->
-
-
-        <!--Begin Credit card -->
-        <string name="credit_card_title">Credit Card Transfer</string>
-        <!--End Credit card -->
+    <!--End Settings-->
 
 
-        <string name="fund_transfer">FUND Transfer</string>
-        <string name="source_account">Source Account</string>
-        <string name="amount">Amount</string>
-        <string name="balance">Balance</string>
-        <string name="destination_a_c">Destination A/C</string>
-        <string name="remarks">Remarks</string>
-        <string name="next">Next</string>
-        <string name="enter_otp">Enter OTP</string>
-        <string name="please_enter_your_otp">Please Enter Your OTP</string>
-        <string name="registration">Registration</string>
-        <string name="user_id">User ID</string>
-        <string name="i_have_read_and_agree_with_above_terms_amp_condition"><![CDATA[I have read and agree with above terms & condition]]></string>
-        <string name="accept">Accept</string>
-        <string name="submit">Submit</string>
-        <string name="terms_and_condition">Terms And Condition</string>
-        <string name="i_have_read_and_agree_with_terms_amp_condition"><![CDATA[I have read and agree with terms & condition]]></string>
-
-        <string name="terms_amp_condition"><![CDATA[Terms & Condition !]]></string>
+    <!--Begin Credit card -->
+    <string name="credit_card_title">Credit Card Transfer</string>
+    <!--End Credit card -->
 
 
+    <string name="fund_transfer">FUND Transfer</string>
+    <string name="source_account">Source Account</string>
+    <string name="amount">Amount</string>
+    <string name="balance">Balance</string>
+    <string name="destination_a_c">Destination A/C</string>
+    <string name="remarks">Remarks</string>
+    <string name="next">Next</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="please_enter_your_otp">Please Enter Your OTP</string>
+    <string name="registration">Registration</string>
+    <string name="user_id">User ID</string>
+    <string name="i_have_read_and_agree_with_above_terms_amp_condition"><![CDATA[I have read and agree with above terms & condition]]></string>
+    <string name="accept">Accept</string>
+    <string name="submit">Submit</string>
+    <string name="terms_and_condition">Terms And Condition</string>
+    <string name="i_have_read_and_agree_with_terms_amp_condition"><![CDATA[I have read and agree with terms & condition]]></string>
 
-        <string name="terms_privacy_bangla1">
+    <string name="terms_amp_condition"><![CDATA[Terms & Condition !]]></string>
+
+
+    <string name="terms_privacy_bangla1">
           \n \n \u25CF সঠিকভাবে রেজিস্ট্রেশন এর মাধ্যমেই কেবলমাত্র আপনি এই অ্যাপটি ব্যবহার করতে পারবেন। রেজিট্রেশন সম্পূর্ণ করার পরেই শুধুমাত্র অ্যাপটি চালু হবে।
 
         \n \n \u25CF আপনি আপনার অর্থ নিজের একাউন্ট থেকে অন্য যেকোনো (পূর্ব নির্ধারণকৃত ) একাউন্ট এ পাঠাতে পারবেন।( শর্ত সাপেক্ষে)
@@ -1049,7 +1040,7 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
     </string>
 
 
-        <string name="terms_privacy_english1">
+    <string name="terms_privacy_english1">
        \n \n \u25CF You will not be able to access this App without registration. This App is only enabled if you are registered.
 
        \n \n \u25CF You can transfer your money from your Source A&#47;C to others pre-informed Destination A&#47;Cs of Bank Asia.
@@ -1072,8 +1063,7 @@ deactivate the mobile app. Hotline: 16205, +8809617016205.
 
         \n \n \u25CF This app might use permission of contacts, location,telephone which may include the ability to read only and write permission for Credit card in storage.
 </string>
-        <string name="ecommerece">Available Ecommerce List</string>
-
+    <string name="ecommerece">Available Ecommerce List</string>
 
 
 </resources>
