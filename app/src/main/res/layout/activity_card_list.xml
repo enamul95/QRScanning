@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,22 +9,26 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <LinearLayout
-                android:layout_margin="5dp"
-                android:background="@color/grey_5"
-                android:weightSum="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/grey_5"
                 android:gravity="end|right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
+
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp">
+                    android:layout_height="120dp"
+                    android:layout_weight="1">
+
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card"
                         android:layout_width="match_parent"
@@ -42,8 +46,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentTop="true"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/world_map" />
@@ -69,12 +73,12 @@
                                     android:id="@+id/card_number"
                                     android:layout_width="wrap_content"
                                     android:layout_height="15dp"
-                                    android:textSize="10dp"
                                     android:layout_marginTop="@dimen/spacing_medium"
                                     android:fontFamily="monospace"
                                     android:text="**** **** ****"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
-                                    android:textColor="@android:color/white" />
+                                    android:textColor="@android:color/white"
+                                    android:textSize="10dp" />
 
                                 <View
                                     android:layout_width="0dp"
@@ -105,9 +109,9 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="EXPIRE"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
                                                     android:id="@+id/card_expire"
@@ -115,9 +119,9 @@
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
                                                     android:text="MM/YY"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
 
                                             </LinearLayout>
 
@@ -135,19 +139,19 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="CVV"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
                                                     android:id="@+id/card_cvv"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
-                                                    android:textSize="10dp"
                                                     android:text="***"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
                                             </LinearLayout>
 
                                         </LinearLayout>
@@ -172,11 +176,13 @@
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
                     <RelativeLayout
                         android:id="@+id/r2"
                         android:layout_width="match_parent"
@@ -193,8 +199,7 @@
                             android:paddingTop="@dimen/margin_start_small"
                             android:text="Your Card Number"
                             android:textColor="@color/grey_60"
-                            android:textSize="@dimen/text_size_small"
-                            />
+                            android:textSize="@dimen/text_size_small" />
 
 
                         <TextView
@@ -235,18 +240,21 @@
 
 
             </LinearLayout>
+
             <LinearLayout
-                android:weightSum="2"
-                android:layout_margin="5dp"
-                android:background="@color/grey_5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/grey_5"
                 android:gravity="end|right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
+
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp">
+                    android:layout_height="120dp"
+                    android:layout_weight="1">
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -263,8 +271,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentTop="true"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/world_map" />
@@ -283,18 +291,18 @@
                                     android:layout_height="16dp"
                                     android:layout_gravity="end|right"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ic_mastercard_new"  />
+                                    android:src="@drawable/ic_mastercard_new" />
 
                                 <TextView
 
                                     android:layout_width="wrap_content"
                                     android:layout_height="15dp"
-                                    android:textSize="10dp"
                                     android:layout_marginTop="@dimen/spacing_medium"
                                     android:fontFamily="monospace"
                                     android:text="**** **** ****"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
-                                    android:textColor="@android:color/white" />
+                                    android:textColor="@android:color/white"
+                                    android:textSize="10dp" />
 
                                 <View
                                     android:layout_width="0dp"
@@ -325,9 +333,9 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="EXPIRE"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
 
@@ -335,9 +343,9 @@
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
                                                     android:text="MM/YY"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
 
                                             </LinearLayout>
 
@@ -355,19 +363,19 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="CVV"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
 
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
-                                                    android:textSize="10dp"
                                                     android:text="***"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
                                             </LinearLayout>
 
                                         </LinearLayout>
@@ -392,11 +400,13 @@
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
                     <RelativeLayout
                         android:id="@+id/rl"
                         android:layout_width="match_parent"
@@ -413,8 +423,7 @@
                             android:paddingTop="@dimen/margin_start_small"
                             android:text="Your Card Number"
                             android:textColor="@color/grey_60"
-                            android:textSize="@dimen/text_size_small"
-                            />
+                            android:textSize="@dimen/text_size_small" />
 
 
                         <TextView
@@ -455,18 +464,21 @@
 
 
             </LinearLayout>
+
             <LinearLayout
-                android:layout_margin="5dp"
-                android:background="@color/grey_5"
-                android:weightSum="2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/grey_5"
                 android:gravity="end|right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
+
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp">
+                    android:layout_height="120dp"
+                    android:layout_weight="1">
+
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card3"
                         android:layout_width="match_parent"
@@ -484,8 +496,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentTop="true"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/world_map" />
@@ -511,12 +523,12 @@
                                     android:id="@+id/card_number3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="15dp"
-                                    android:textSize="10dp"
                                     android:layout_marginTop="@dimen/spacing_medium"
                                     android:fontFamily="monospace"
                                     android:text="**** **** ****"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
-                                    android:textColor="@android:color/white" />
+                                    android:textColor="@android:color/white"
+                                    android:textSize="10dp" />
 
                                 <View
                                     android:layout_width="0dp"
@@ -547,9 +559,9 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="EXPIRE"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
                                                     android:id="@+id/card_expire3"
@@ -557,9 +569,9 @@
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
                                                     android:text="MM/YY"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
 
                                             </LinearLayout>
 
@@ -577,19 +589,19 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="CVV"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
                                                     android:id="@+id/card_cvv3"
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
-                                                    android:textSize="10dp"
                                                     android:text="***"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
                                             </LinearLayout>
 
                                         </LinearLayout>
@@ -614,11 +626,13 @@
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
                     <RelativeLayout
                         android:id="@+id/r4"
                         android:layout_width="match_parent"
@@ -635,8 +649,7 @@
                             android:paddingTop="@dimen/margin_start_small"
                             android:text="Your Card Number"
                             android:textColor="@color/grey_60"
-                            android:textSize="@dimen/text_size_small"
-                            />
+                            android:textSize="@dimen/text_size_small" />
 
 
                         <TextView
@@ -677,18 +690,21 @@
 
 
             </LinearLayout>
+
             <LinearLayout
-                android:weightSum="2"
-                android:layout_margin="5dp"
-                android:background="@color/grey_5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/grey_5"
                 android:gravity="end|right"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
+
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="120dp">
+                    android:layout_height="120dp"
+                    android:layout_weight="1">
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -705,8 +721,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
                                 android:layout_alignParentTop="true"
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/world_map" />
@@ -725,18 +741,18 @@
                                     android:layout_height="16dp"
                                     android:layout_gravity="end|right"
                                     android:scaleType="centerCrop"
-                                    android:src="@drawable/ic_mastercard_new"  />
+                                    android:src="@drawable/ic_mastercard_new" />
 
                                 <TextView
 
                                     android:layout_width="wrap_content"
                                     android:layout_height="15dp"
-                                    android:textSize="10dp"
                                     android:layout_marginTop="@dimen/spacing_medium"
                                     android:fontFamily="monospace"
                                     android:text="**** **** ****"
                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
-                                    android:textColor="@android:color/white" />
+                                    android:textColor="@android:color/white"
+                                    android:textSize="10dp" />
 
                                 <View
                                     android:layout_width="0dp"
@@ -767,9 +783,9 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="EXPIRE"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
 
@@ -777,9 +793,9 @@
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
                                                     android:text="MM/YY"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
 
                                             </LinearLayout>
 
@@ -797,19 +813,19 @@
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:text="CVV"
-                                                    android:textSize="10dp"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
-                                                    android:textColor="@color/grey_10" />
+                                                    android:textColor="@color/grey_10"
+                                                    android:textSize="10dp" />
 
                                                 <TextView
 
                                                     android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:fontFamily="monospace"
-                                                    android:textSize="10dp"
                                                     android:text="***"
                                                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                                                    android:textColor="@android:color/white" />
+                                                    android:textColor="@android:color/white"
+                                                    android:textSize="10dp" />
                                             </LinearLayout>
 
                                         </LinearLayout>
@@ -834,11 +850,13 @@
 
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+
                     <RelativeLayout
                         android:id="@+id/r5"
                         android:layout_width="match_parent"
@@ -855,8 +873,7 @@
                             android:paddingTop="@dimen/margin_start_small"
                             android:text="Your Card Number"
                             android:textColor="@color/grey_60"
-                            android:textSize="@dimen/text_size_small"
-                            />
+                            android:textSize="@dimen/text_size_small" />
 
 
                         <TextView
@@ -899,6 +916,18 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:text="Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+        </Button>
+    </RelativeLayout >
 
-</LinearLayout>
+</RelativeLayout>
