@@ -417,22 +417,22 @@
                     android:textSize="@dimen/contact_number" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <Button
-                    android:background="@color/colorPrimary"
-                    android:layout_alignParentBottom="true"
-                    android:textColor="@color/white"
-                    android:text="Next"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
 
-                </Button>
-            </RelativeLayout >
 
         </LinearLayout>
     </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:text="Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+        </Button>
+    </RelativeLayout >
 
 </RelativeLayout>

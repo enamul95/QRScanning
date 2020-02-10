@@ -26,24 +26,28 @@ public class MainActivity extends AppCompatActivity {
     Button code_scanner;
     Button visa_payment;
     Button cardDetails;
+    Button scanToPay;
+    Button confirm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(!hasPermissions(this, PERMISSIONS)){
+        if (!hasPermissions(this, PERMISSIONS)) {
             ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
         }
 
         code_scanner = findViewById(R.id.code_scanner);
         visa_payment = findViewById(R.id.visa_payment);
         cardDetails = findViewById(R.id.cardDetails);
+        scanToPay = findViewById(R.id.scanToPay);
+        confirm = findViewById(R.id.confirm);
         code_scanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this,Code_Scanner.class);
+                Intent intent = new Intent(MainActivity.this, Code_Scanner.class);
                 startActivity(intent);
             }
         });
@@ -52,19 +56,31 @@ public class MainActivity extends AppCompatActivity {
         visa_payment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CardListActivity.class);
+                Intent intent = new Intent(MainActivity.this, CardListActivity.class);
                 startActivity(intent);
             }
         });
         cardDetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CardDetailsActivity.class);
+                Intent intent = new Intent(MainActivity.this, CardDetailsActivity.class);
+                startActivity(intent);
+            }
+        });
+        scanToPay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ScanToPayActivity.class);
+                startActivity(intent);
+            }
+        });confirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ConfirmActivity.class);
                 startActivity(intent);
             }
         });
     }
-
 
 
     public static boolean hasPermissions(Context context, String... permissions) {

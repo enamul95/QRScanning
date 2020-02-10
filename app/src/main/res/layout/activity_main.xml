@@ -9,22 +9,37 @@
 
     <Button
         android:id="@+id/code_scanner"
-        android:layout_margin="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="QR Scanner - code-scanner"/>
+        android:layout_margin="2dp"
+        android:text="QR Scanner - code-scanner" />
 
     <Button
         android:id="@+id/visa_payment"
-        android:layout_margin="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visa Payment"/>
+        android:layout_margin="2dp"
+        android:text="Visa Payment" />
+
     <Button
         android:id="@+id/cardDetails"
-        android:layout_margin="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Card Details"/>
+        android:layout_margin="2dp"
+        android:text="Card Details" />
+
+    <Button
+        android:id="@+id/scanToPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="ScanToPay" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="confirm" />
 
 </LinearLayout>
