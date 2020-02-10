@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:visibility="gone"
         android:id="@+id/code_scanner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
         android:text="Visa Payment" />
 
     <Button
+        android:visibility="gone"
         android:id="@+id/cardDetails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,13 +31,15 @@
         android:text="Card Details" />
 
     <Button
+
         android:id="@+id/scanToPay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
-        android:text="ScanToPay" />
+        android:text="Scan To Pay" />
 
     <Button
+        android:visibility="gone"
         android:id="@+id/confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
