@@ -38,6 +38,17 @@
         android:layout_margin="2dp"
         android:text="Visa QR Generate " />
 
+
+    <Button
+
+        android:id="@+id/visa_qr_testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:text="Visa QR Testing " />
+
+
+
     <Button
         android:visibility="gone"
         android:id="@+id/confirm"

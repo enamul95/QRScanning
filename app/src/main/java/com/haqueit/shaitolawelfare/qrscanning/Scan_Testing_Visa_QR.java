@@ -17,15 +17,13 @@ import com.budiyev.android.codescanner.CodeScannerView;
 import com.budiyev.android.codescanner.DecodeCallback;
 import com.google.zxing.Result;
 
-public class Code_Scanner extends AppCompatActivity {
-
+public class Scan_Testing_Visa_QR extends AppCompatActivity {
     private CodeScanner mCodeScanner;
     private Button btnNext;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_code__scanner);
+        setContentView(R.layout.activity_scan__testing__visa__qr);
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.abs_layout);
@@ -34,15 +32,9 @@ public class Code_Scanner extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         CodeScannerView scannerView = findViewById(R.id.scanner_view);
 
-         btnNext = findViewById(R.id.btnNext);
+        btnNext = findViewById(R.id.btnNext);
         mCodeScanner = new CodeScanner(this, scannerView);
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Code_Scanner.this,CardDetailsActivity.class);
-                startActivity(intent);
-            }
-        });
+
         mCodeScanner.setDecodeCallback(new DecodeCallback() {
             @Override
             public void onDecoded(@NonNull final Result result) {
@@ -50,8 +42,15 @@ public class Code_Scanner extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Log.e("QR CODE==>",result.getText());
-                        Toast.makeText(Code_Scanner.this, result.getText(), Toast.LENGTH_SHORT).show();
+
+                        String qr = result.getText();
+                        Log.e("QR CODE==>",qr);
+
+                        Intent intent = new Intent(Scan_Testing_Visa_QR.this,View_Visa_QR_Testing.class);
+                        intent.putExtra("qr",qr);
+                        startActivity(intent);
+
+                      //  Toast.makeText(Scan_Testing_Visa_QR.this, result.getText(), Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -94,7 +93,7 @@ public class Code_Scanner extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 // app icon in action bar clicked; go home
-                Intent intent = new Intent(this, CardListActivity.class);
+                Intent intent = new Intent(this, MainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

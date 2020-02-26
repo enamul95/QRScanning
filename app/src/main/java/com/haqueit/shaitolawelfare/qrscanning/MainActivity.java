@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Button cardDetails;
     Button scanToPay;
     Button confirm;
+    Button visa_qr_testing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         cardDetails = findViewById(R.id.cardDetails);
         scanToPay = findViewById(R.id.scanToPay);
         confirm = findViewById(R.id.confirm);
+        visa_qr_testing = findViewById(R.id.visa_qr_testing);
         code_scanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,6 +79,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ConfirmActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        visa_qr_testing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Scan_Testing_Visa_QR.class);
                 startActivity(intent);
             }
         });

@@ -11,11 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConfirmActivity"></activity>
+        <activity android:name=".Scan_Testing_Visa_QR"></activity>
+        <activity android:name=".View_Visa_QR_Testing" />
+        <activity android:name=".ConfirmActivity" />
         <activity android:name=".ScanToPayActivity" />
         <activity android:name=".CardDetailsActivity" />
         <activity android:name=".CardListActivity" />
         <activity android:name=".Code_Scanner" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,130 @@
+package com.haqueit.shaitolawelfare.qrscanning;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+public class View_Visa_QR_Testing extends AppCompatActivity {
+
+    TextView tv_payload_indicator_value;
+    TextView tv_merchant_account_info_value;
+    TextView tv_merchant_category_code_value;
+    TextView tv_tramsaction_currency_value;
+    TextView tv_tramsaction_amount;
+    TextView tv_country_code;
+    TextView tv_merchant_name;
+    TextView tv_merchant_city;
+    TextView tv_postal_code;
+    TextView tv_crc;
+
+    String qr= "";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_read__qr);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+        Intent intent = getIntent();
+        qr = intent.getStringExtra("qr");
+
+        Log.e("qr--",qr);
+
+        //000201010211021645159688429810355204512253030505802BD5912Corner Store6005Dhaka63042663
+
+        //000201
+        // 010211
+        // 02164515968842981035
+        // 52045122
+        // 5303050
+        // 5802BD
+        // 5912Corner Store
+        // 6005Dhaka
+        // 63042663"
+
+
+
+        tv_payload_indicator_value = findViewById(R.id.tv_payload_indicator_value);
+        tv_merchant_account_info_value = findViewById(R.id.tv_merchant_account_info_value);
+        tv_merchant_category_code_value = findViewById(R.id.tv_merchant_category_code_value);
+        tv_tramsaction_currency_value = findViewById(R.id.tv_tramsaction_currency_value);
+        tv_tramsaction_amount = findViewById(R.id.tv_tramsaction_amount);
+        tv_country_code = findViewById(R.id.tv_country_code);
+        tv_merchant_name = findViewById(R.id.tv_merchant_name);
+        tv_merchant_city = findViewById(R.id.tv_merchant_city);
+        tv_postal_code = findViewById(R.id.tv_postal_code);
+        tv_crc = findViewById(R.id.tv_crc);
+
+        String s = qr;
+
+        while(s.length() > 0){
+            String tag = "";
+            String len = "";
+            String value = "";
+
+            tag = s.substring(0, 2);
+            s = s.substring(2);
+
+
+            len = s.substring(0, 2);
+            s = s.substring(2);
+
+
+            int covertLen = Integer.parseInt(len);
+            value = s.substring(0, covertLen);
+            s = s.substring(covertLen);
+
+            if("00".equals(tag)){
+                tv_payload_indicator_value.setText(value);
+            }else if("02".equals(tag)){
+                tv_merchant_account_info_value.setText(value);
+            }else if("52".equals(tag)){
+                tv_merchant_category_code_value.setText(value);
+            }else if("53".equals(tag)){
+                tv_tramsaction_currency_value.setText(value);
+            }else if("54".equals(tag)){
+                tv_tramsaction_amount.setText(value);
+            }else if("58".equals(tag)){
+                tv_country_code.setText(value);
+            }else if("59".equals(tag)){
+                tv_merchant_name.setText(value);
+            }else if("60".equals(tag)){
+                tv_merchant_city.setText(value);
+            }else if("61".equals(tag)){
+                tv_postal_code.setText(value);
+            }else if("63".equals(tag)){
+                tv_crc.setText(value);
+            }
+
+        }
+
+
+
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                // app icon in action bar clicked; go home
+                Intent intent = new Intent(this, MainActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+
+
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+}
