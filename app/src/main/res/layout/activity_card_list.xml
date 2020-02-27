@@ -12,10 +12,20 @@
         android:layout_height="match_parent">
 
         <LinearLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btnVisa_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey_5"
+            android:gravity="end|right"
+            android:orientation="horizontal"
+            android:weightSum="2">
+        </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/btnNext"
