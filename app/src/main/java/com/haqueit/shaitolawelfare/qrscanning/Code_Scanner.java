@@ -36,6 +36,7 @@ public class Code_Scanner extends AppCompatActivity {
 
          btnNext = findViewById(R.id.btnNext);
         mCodeScanner = new CodeScanner(this, scannerView);
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
