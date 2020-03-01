@@ -52,7 +52,12 @@ public class Code_Scanner extends AppCompatActivity {
                     @Override
                     public void run() {
                         Log.e("QR CODE==>",result.getText());
-                        Toast.makeText(Code_Scanner.this, result.getText(), Toast.LENGTH_SHORT).show();
+                        String qr = result.getText();
+                        Log.e("QR CODE==>",qr);
+
+                        Intent intent = new Intent(Code_Scanner.this,QR_Payment.class);
+                        intent.putExtra("qr",qr);
+                        startActivity(intent);
                     }
                 });
             }

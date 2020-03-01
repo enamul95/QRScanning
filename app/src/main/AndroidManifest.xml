@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.haqueit.shaitolawelfare.qrscanning">
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -11,24 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
-        <activity android:name=".Scan_Testing_Visa_QR"
+        <activity android:name=".QR_Payment"
             android:label="@string/company_name"></activity>
-        <activity android:name=".View_Visa_QR_Testing"
-            android:label="@string/company_name"/>
-        <activity android:name=".ConfirmActivity"
-            android:label="@string/company_name"/>
-        <activity android:name=".ScanToPayActivity"
-            android:label="@string/company_name"/>
-        <activity android:name=".CardDetailsActivity"
-            android:label="@string/company_name"/>
-        <activity android:name=".CardListActivity"
-            android:label="@string/company_name"/>
-
-
-        <activity android:name=".Code_Scanner"
-            android:label="@string/company_name"/>
-
+        <activity
+            android:name=".Scan_Testing_Visa_QR"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".View_Visa_QR_Testing"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".ConfirmActivity"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".ScanToPayActivity"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".CardDetailsActivity"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".CardListActivity"
+            android:label="@string/company_name" />
+        <activity
+            android:name=".Code_Scanner"
+            android:label="@string/company_name" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
