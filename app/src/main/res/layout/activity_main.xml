@@ -17,6 +17,7 @@
     <Button
 
         android:id="@+id/btnQrPayment"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
@@ -24,6 +25,7 @@
 
     <Button
         android:id="@+id/visa_payment"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
@@ -31,6 +33,7 @@
 
     <Button
         android:visibility="gone"
+        android:textStyle="bold"
         android:id="@+id/cardDetails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -40,6 +43,7 @@
     <Button
 
         android:id="@+id/scanToPay"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
@@ -49,6 +53,7 @@
     <Button
 
         android:id="@+id/visa_qr_testing"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
