@@ -47,16 +47,7 @@
             android:layout_marginTop="10dp"/>
 
 
-        <TextView
-            android:id="@+id/tv_success_handover_money"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/success_your"
-            android:gravity="center"
-            android:textSize="@dimen/edit_text_textSize_base"
-            android:textColor="@color/payment_textview_text_color"
-            android:layout_marginTop="40dp"
-            android:textStyle="bold"/>
+
 
 
         <Button
