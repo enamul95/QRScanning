@@ -22,6 +22,9 @@
 
     <string name="title_unread_smg">Unread SMS</string>
     <string name="sms_read">No Unread SMS Found From Your Device.</string>
+    <string name="payment_amount">Enter Amount</string>
+    <string name="payment_chose_amount">Choose Amount</string>
+    <string name="confirm">Submit</string>
 
 
 </resources>

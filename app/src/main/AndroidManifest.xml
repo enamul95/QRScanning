@@ -12,8 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".Payment_Read_Qr_Details"
+            android:label="@string/company_name"/>
+
+        <activity android:name=".Payment_Scan_Qr"
+            android:label="@string/company_name"/>
+
         <activity android:name=".QR_Payment"
-            android:label="@string/company_name"></activity>
+            android:label="@string/company_name"/>
         <activity
             android:name=".Scan_Testing_Visa_QR"
             android:label="@string/company_name" />
@@ -32,6 +38,11 @@
         <activity
             android:name=".CardListActivity"
             android:label="@string/company_name" />
+
+        <activity
+            android:name=".Payement_CardList"
+            android:label="@string/company_name" />
+
         <activity
             android:name=".Code_Scanner"
             android:label="@string/company_name" />
