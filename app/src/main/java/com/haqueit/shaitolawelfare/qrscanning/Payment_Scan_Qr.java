@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -20,7 +22,7 @@ public class Payment_Scan_Qr extends AppCompatActivity {
 
     private CodeScanner mCodeScanner;
     private Button btnNext;
-
+    private EditText edtCardNumber;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +34,7 @@ public class Payment_Scan_Qr extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         CodeScannerView scannerView = findViewById(R.id.scanner_view);
-
+        edtCardNumber = findViewById(R.id.edtCardNumber);
          btnNext = findViewById(R.id.btnNext);
         mCodeScanner = new CodeScanner(this, scannerView);
 
@@ -40,7 +42,11 @@ public class Payment_Scan_Qr extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Payment_Scan_Qr.this,CardDetailsActivity.class);
-                startActivity(intent);
+                if(edtCardNumber.getText().toString().equals("")){
+                    Toast.makeText(Payment_Scan_Qr.this, "Card number can't empty", Toast.LENGTH_SHORT).show();
+                }else {
+                    startActivity(intent);
+                }
             }
         });
         mCodeScanner.setDecodeCallback(new DecodeCallback() {

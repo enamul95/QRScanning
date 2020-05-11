@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.budiyev.android.codescanner.CodeScanner;
@@ -21,6 +22,7 @@ public class Code_Scanner extends AppCompatActivity {
 
     private CodeScanner mCodeScanner;
     private Button btnNext;
+    private EditText edtCardNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,13 +37,20 @@ public class Code_Scanner extends AppCompatActivity {
         CodeScannerView scannerView = findViewById(R.id.scanner_view);
 
          btnNext = findViewById(R.id.btnNext);
+        edtCardNumber = findViewById(R.id.edtCardNumber);
         mCodeScanner = new CodeScanner(this, scannerView);
 
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Code_Scanner.this,CardDetailsActivity.class);
-                startActivity(intent);
+
+                if(edtCardNumber.getText().toString().equals("")){
+                    Toast.makeText(Code_Scanner.this, "Card number can't empty", Toast.LENGTH_SHORT).show();
+                }else {
+                    Intent intent=new Intent(Code_Scanner.this,CardDetailsActivity.class);
+                    startActivity(intent);
+                }
+
             }
         });
         mCodeScanner.setDecodeCallback(new DecodeCallback() {
