@@ -3,7 +3,12 @@ package com.haqueit.shaitolawelfare.qrscanning;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -23,6 +28,11 @@ public class Payment_Read_Qr_Details extends AppCompatActivity {
     TextView tv_detail_merchnat_name;
     TextView tv_detail_account_no;
     TextView tv_detail_currency;
+    Button btnConfrim;
+    EditText amount_txtAmount;
+    LinearLayout layout_scan_type;
+    LinearLayout layout_success;
+    Button btn_sucessBackhome;
 
     String qr= "";
 
@@ -53,7 +63,13 @@ public class Payment_Read_Qr_Details extends AppCompatActivity {
         tv_detail_merchnat_name = findViewById(R.id.tv_detail_merchnat_name);
         tv_detail_account_no = findViewById(R.id.tv_detail_account_no);
         tv_detail_currency = findViewById(R.id.tv_detail_currency);
-
+        btnConfrim = findViewById(R.id.btnConfrim);
+        btnConfrim = findViewById(R.id.btnConfrim);
+        amount_txtAmount = findViewById(R.id.amount_txtAmount);
+        layout_success = findViewById(R.id.layout_success);
+        layout_scan_type = findViewById(R.id.layout_scan_type);
+        btn_sucessBackhome = findViewById(R.id.btn_sucessBackhome);
+        layout_success.setVisibility(View.GONE);
         String s = qr;
 
         while(s.length() > 0){
@@ -99,5 +115,30 @@ public class Payment_Read_Qr_Details extends AppCompatActivity {
             }
 
         }
+
+
+
+        buttonAcyion();
+    }
+
+    private void buttonAcyion() {
+        btnConfrim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(amount_txtAmount.getText().toString().equals("")){
+                    Toast.makeText(Payment_Read_Qr_Details.this, "Amount can't empty", Toast.LENGTH_SHORT).show();
+                }else {
+                    layout_scan_type.setVisibility(View.GONE);
+                    layout_success.setVisibility(View.VISIBLE);
+                }
+            }
+        });btn_sucessBackhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Payment_Read_Qr_Details.this,CardListActivity.class);
+
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+    <ImageView
+        android:id="@+id/succes_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/success_msg"
+        android:layout_gravity="center"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_success_congratulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/success_congratulate"
+            android:gravity="center"
+            android:textSize="@dimen/success_textSize_base"
+            android:textColor="@color/payment_textview_text_color"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_susccessful_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/success_message"
+            android:gravity="center"
+            android:textSize="@dimen/edit_text_textSize_base"
+            android:textColor="@color/payment_textview_text_color"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_success_handover_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/success_your"
+            android:gravity="center"
+            android:textSize="@dimen/edit_text_textSize_base"
+            android:textColor="@color/payment_textview_text_color"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/btn_sucessBackhome"
+            android:layout_width="160dp"
+            android:layout_height="@dimen/button_height_base"
+            android:text="@string/success_back_to_home"
+            android:background="@drawable/login_button_background"
+            android:textSize="@dimen/edit_text_textSize_base"
+            android:textColor="@color/button_text_color"
+            android:drawableRight="@drawable/arrow_right"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -48,6 +48,7 @@ public class Code_Scanner extends AppCompatActivity {
                     Toast.makeText(Code_Scanner.this, "Card number can't empty", Toast.LENGTH_SHORT).show();
                 }else {
                     Intent intent=new Intent(Code_Scanner.this,CardDetailsActivity.class);
+                    intent.putExtra("card_number",edtCardNumber.getText().toString());
                     startActivity(intent);
                 }
 

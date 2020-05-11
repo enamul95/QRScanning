@@ -153,6 +153,6 @@
         <color name="cd_title_color">#ffffffff</color>
         <color name="r_layout_background">#ffffff</color>
         <color name="amber_800">#FF8F00</color>
-
-
+        <color name="payment_textview_text_color">#0477BD</color>
+    <color name="button_text_color">#FFFFFF</color>
 </resources>

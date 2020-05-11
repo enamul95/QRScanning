@@ -7,9 +7,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class CardDetailsActivity extends AppCompatActivity {
     private Button btnNext;
+    private TextView tvCardNumber;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +20,8 @@ public class CardDetailsActivity extends AppCompatActivity {
         getSupportActionBar().setElevation(0);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        tvCardNumber = findViewById(R.id.tvCardNumber);
         btnNext = findViewById(R.id.btnNext);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +30,16 @@ public class CardDetailsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }@Override
+        getCardNumber();
+    }
+
+    private void getCardNumber() {
+
+        Intent intent=getIntent();
+        tvCardNumber.setText(intent.getStringExtra("card_number"));
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:

@@ -653,4 +653,22 @@
     <dimen name="edittext_height_7">60dp</dimen>
     <dimen name="edittext_height_10">70dp</dimen>
 
+
+    <dimen name="success_textSize_base">20sp</dimen>
+    <dimen name="success_textSize_360">20sp</dimen>
+    <dimen name="success_textSize_7">22sp</dimen>
+    <dimen name="success_textSize_10">25sp</dimen>
+
+    <dimen name="edit_text_textSize_base">16sp</dimen>
+    <dimen name="edit_text_textSize_360">16sp</dimen>
+    <dimen name="edit_text_textSize_7">18sp</dimen>
+    <dimen name="edit_text_textSize_10">20sp</dimen>
+
+    <dimen name="button_height_base">50dp</dimen>
+    <dimen name="button_height_360">50dp</dimen>
+    <dimen name="button_height_7">60dp</dimen>
+    <dimen name="button_height_10">70dp</dimen>
+
+    <string name="success_back_to_home">Back to home</string>
+
 </resources>

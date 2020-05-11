@@ -45,6 +45,7 @@ public class Payment_Scan_Qr extends AppCompatActivity {
                 if(edtCardNumber.getText().toString().equals("")){
                     Toast.makeText(Payment_Scan_Qr.this, "Card number can't empty", Toast.LENGTH_SHORT).show();
                 }else {
+                    intent.putExtra("card_number",edtCardNumber.getText().toString());
                     startActivity(intent);
                 }
             }

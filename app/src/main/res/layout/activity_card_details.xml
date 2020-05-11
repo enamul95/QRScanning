@@ -84,7 +84,7 @@
                                         android:src="@drawable/ic_mastercard_new" />
 
                                     <TextView
-                                        android:id="@+id/card_number2"
+                                        android:id="@+id/tvCardNumber"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="@dimen/spacing_medium"

@@ -25,6 +25,7 @@
     <string name="payment_amount">Enter Amount</string>
     <string name="payment_chose_amount">Choose Amount</string>
     <string name="confirm">Submit</string>
-
-
+    <string name="success_congratulate">Congratulations !</string>
+    <string name="success_message">Your transaction is successfull</string>
+    <string name="success_your">Handover the money to the customer</string>
 </resources>

@@ -21,7 +21,19 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp">
 
-           <TextView
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:text="Account Details"
+                    >
+
+                </TextView>
+
+                <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="Merchant Information"
@@ -200,7 +212,7 @@
                     android:background="@drawable/edit_text_round_border" />
             </LinearLayout>
             <Button
-                android:id="@+id/btn_otp_confrim"
+                android:id="@+id/btnConfrim"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:text="@string/confirm"
